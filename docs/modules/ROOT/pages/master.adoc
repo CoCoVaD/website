@@ -1,4 +1,4 @@
-= Continuous and Collaborative Value Delivery
+= Collaborative & Continuous Value Delivery 
 Jean-Michel Bruel <bruel@irit.fr>
 v1.0, {localdate}
 :myinitials: JMB
@@ -13,5 +13,13 @@ image::cocovad.png[Chair logo]
 
 CAUTION: Site under construction!! 
 
+== Overview
 
-Details coming soon...
+Despite the success of Model-Based Systems Engineering adoption, its application at scale and in a continuous approach to ensure the delivery of added value for its adopters is far from straightforward. 
+The inherent complexity in terms of implied domains or of massively heterogeneous and poorly related data is not weaved by the simple use of a formal and disciplined modeling approach. 
+A collaborative and continuous framework and process are required and need to aggregate up-to-date technologies in complementary techniques such as models, ontologies, and complex data management. 
+It is the purpose of this Chair to study and make effective such complementarity.
+
+== Details
+
+Coming soon...

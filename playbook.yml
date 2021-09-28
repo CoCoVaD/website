@@ -2,7 +2,7 @@
 # On définit ici l'URL qui permettra d'accéder au site créé par
 # Antora depuis l'extérieur.
 site:
-  title: 'CoCoVaD -- Continuous and Collaborative Value Delivery'
+  title: 'CoCoVaD -- COllaborative & COntinuous VAlue Delivery'
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://CoCovaD.github.io/website
   start_page: cocovad::master.adoc
@@ -28,12 +28,11 @@ ui:
 #    url: docs/ui-bundle.zip
     url: https://gitlab.com/jmbruel/antora-but-info-blagnac-ui/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-  supplemental_files: 
-    - path: ./supplemental-ui
-    - path: .nojekyll
-    - path: ui.yml
-      contents: "static_files: [ .nojekyll ]"
-
+  supplemental_files: ./supplemental-ui
+    # - path: ./supplemental-ui
+    # - path: .nojekyll
+    # - path: ui.yml
+    #   contents: "static_files: [ .nojekyll ]"
 
 asciidoc:
   extensions:
