@@ -18,7 +18,7 @@ clean:
 check:
 	cucumber
 
-deploy: build/site/index.html check
+deploy: build/site/index.html 
 	@echo "========================================"
 	@echo "==> Deploy updates "
 	git commit -am "🤖 DEPLOY: last updates"; git pull; git push
