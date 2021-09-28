@@ -5,8 +5,15 @@
 :FR:
 // :plantuml-server-url: http://www.plantuml.com/plantuml
 
-// Définition des enseignants
+// Définitions
 :jmb: mailto:jbruel@gmail.com[J.-M. Bruel]
+:myinitials: JMB
+:icons: font
+:xrefstyle: short
+// short full basic
+:experimental:
+:cocovad-url: https://CoCovaD.github.io/website
+:cocovad: {cocovad-url}[CoCoVaD Chair]
 
 // raccourcis sites et outils
 :aadl: http://www.aadl.info/[AADL]indexterm:[AADL]

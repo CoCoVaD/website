@@ -1,1 +1,3 @@
 * xref:master.adoc[]
+* xref:postdoc.adoc[]
+* xref:phds.adoc[]
