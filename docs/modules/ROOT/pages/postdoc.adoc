@@ -36,7 +36,7 @@ We are looking for a Post-Doc candidate with the following skills:
 - Aiming at regularly publishing in top venues;
 - Excellent English skills (both spoken and written) for scientific
 communication (although French may certainly be used for every-day life);
-- Aiming at joining Airbus at the end of the post-doc to integrate the MBSE team and continue working on the Chaire activities.
+- Aiming at joining {Airbus} at the end of the post-doc to integrate the MBSE team and continue working on the Chaire activities.
 
 // ***********************
 == Where do we work?
@@ -69,13 +69,13 @@ Please use "[CoCoVaD PostDoc]" in your email's subject to facilitate its process
 Applications will start from the opening publication date, and will continue until the position is filled. 
 The selection will include an interview (most likely operated online) consisting in presenting the candidate's views on his own experience and the relevance for the project, as well as early takeouts on the project's topic.
 
-The University of Toulouse promotes diversity in employment and welcomes applications from all sections of the community.
+The {ut2j} promotes diversity in employment and welcomes applications from all sections of the community.
 
 // ***************
 == Key Infos 
 // ***************
 
-Job offer: https://cocovad.github.io/website/cocovad/1.0/postdoc.html
-IRIT/CNRS website : https://www.irit.fr/en/home/
-SM@RT team website : https://smart-researchteam.github.io/
+* Job offer: https://cocovad.github.io/website/cocovad/1.0/postdoc.html
+* IRIT/CNRS website: https://www.irit.fr/en/home/
+* SM@RT team website: https://smart-researchteam.github.io/
 
