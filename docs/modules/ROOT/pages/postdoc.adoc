@@ -6,4 +6,76 @@ include::ROOT:page$definitions.adoc[]
 
 CAUTION: Page under construction!! 
 
-The {cocovad} ...
+The {cocovad} is hiring an *18 months Post-Doc position*.
+Hold at {ut2j}, in collaboration with {irit} Laboratory, 
+the project takes place in an industrial Chair with {Airbus}, the worldwide aeronautic leader. 
+
+// *******************************************
+== Collaborative & Continuous Value Delivery
+// *******************************************
+
+The chair aims at studying and making effective the complementarity between detailed data manipulation technologies with abstract and complex models and ontologies in an integrated and value-driven framework.
+Despite the success of Model-Based Systems Engineering (MBSE) adoption, its application at scale and in a continuous approach to ensure the delivery of added value for its adopters is far from straightforward. 
+The inherent complexity in terms of implied domains or of massively heterogeneous and poorly related data is not weaved by the simple use of a formal and disciplined modeling approach. 
+A collaborative and continuous framework and process are required and need to aggregate up-to-date technologies in complementary techniques such as models, ontologies, and complex data management. 
+
+// ********************
+== Who can apply?
+// ********************
+
+Outstanding candidates will have the opportunity to work in advanced topics.
+{Airbus} intends to hire in permanent contract (_CDI_ in French) the selected engineer at the end of the postdoc.
+Candidates not interested in that possibility are asked not to submit.
+
+We are looking for a Post-Doc candidate with the following skills:
+
+- Knowledge of language theory and model transformations;
+- Notions of Systems Engineering;
+- Autonomy in daily work;
+- Ability to work within a small team, and with an international network of collaborators;
+- Aiming at regularly publishing in top venues;
+- Excellent English skills (both spoken and written) for scientific
+communication (although French may certainly be used for every-day life);
+- Aiming at joining Airbus at the end of the post-doc to integrate the MBSE team and continue working on the Chaire activities.
+
+// ***********************
+== Where do we work?
+// ***********************
+
+The position will be held in the {iut} close-by {Airbus}' offices.
+
+Toulouse is the capital of Occitanie and Aeronotics.  It is a well connected city,
+with lots of students and IT companies.
+
+The funding is a available for a duration of one year, with a possible extension of 6 months (for a total of 1.5 years), and amounts up to 4.000 €/month according to the candidate experience.
+
+// *******************
+== How to apply? 
+// *******************
+
+For more information on the research and/or the position, please contact 
+Jean-Michel Bruel (bruel@irit.fr) including a copy of your CV (with references).
+Screening of potential candidates will start immediately and until the position is filled. 
+
+Formal application requires:
+
+* A full CV, including a publication list;
+* A Cover Letter of max. 2 pages describing your skills, experience, and why you are the best candidate to hire for this project;
+* A Copy of the Ph.D. diploma (or report, if diploma not available yet);
+* Optionally, some recommendation letters (up to three).
+
+Please use "[CoCoVaD PostDoc]" in your email's subject to facilitate its processing.
+
+Applications will start from the opening publication date, and will continue until the position is filled. 
+The selection will include an interview (most likely operated online) consisting in presenting the candidate's views on his own experience and the relevance for the project, as well as early takeouts on the project's topic.
+
+The University of Toulouse promotes diversity in employment and welcomes applications from all sections of the community.
+
+// ***************
+== Key Infos 
+// ***************
+
+Job offer: https://cocovad.github.io/website/cocovad/1.0/postdoc.html
+IRIT/CNRS website : https://www.irit.fr/en/home/
+SM@RT team website : https://smart-researchteam.github.io/
+

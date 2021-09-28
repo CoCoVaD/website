@@ -1,11 +1,11 @@
 :definitions:
 :example-caption!:
 
-// Required mmacros
+// Required macros
 :FR:
 // :plantuml-server-url: http://www.plantuml.com/plantuml
 
-// Définitions
+// Definitions
 :jmb: mailto:jbruel@gmail.com[J.-M. Bruel]
 :myinitials: JMB
 :icons: font
@@ -15,7 +15,7 @@
 :cocovad-url: https://CoCovaD.github.io/website
 :cocovad: {cocovad-url}[CoCoVaD Chair]
 
-// raccourcis sites et outils
+// sites & tools
 :aadl: http://www.aadl.info/[AADL]indexterm:[AADL]
 :artisan: http://www.artisansw.com/[Artisan]
 :asciidoc: https://asciidoc.org/[AsciiDoc]
@@ -101,16 +101,17 @@
 :xtext: http://www.eclipse.org/Xtext/[Xtext]
 :yuml: http://yuml.me/[yuml]
 
-// personnes et institutions
+// people & institutions
 :dl: http://www.master-developpement-logiciel.fr/[Master DL]
 :m2dl: {dl}
 :ice: link:https://www.univ-tlse2.fr/master-miashs-parcours-informatique-collaborative-en-entreprise-ice--386373.kjsp?RH=composantes[Master ICE]
-:irit: http://www.irit.fr[IRIT](((IRIT)))
+:irit: https://www.irit.fr/en/home/[IRIT](((IRIT)))
 :iut: http://www.iut-blagnac.fr/[IUT de Blagnac]
 :univ-tlse: http://www.univ-toulouse.fr[Université de Toulouse]
 :ups: http://www.univ-tlse3.fr[Université Toulouse III - Paul Sabatier]
 :univ-tlse2: http://www.univ-tlse2.fr[Université Toulouse II - Jean Jaurès]
 :ut2j: {univ-tlse2}
+:airbus: https://www.airbus.com/[Airbus]
 
 // data divers
 :here: icon:map-marker[role=red] You are here!
