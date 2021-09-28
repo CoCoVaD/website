@@ -1,0 +1,9 @@
+= Ph.Ds Hiring 
+Jean-Michel Bruel <bruel@irit.fr>
+v1.0, {localdate}
+
+include::ROOT:page$definitions.adoc[]
+
+CAUTION: Page under construction!! 
+
+The {cocovad} hires three Ph.Ds in the context of ...
