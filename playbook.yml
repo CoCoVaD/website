@@ -5,7 +5,7 @@ site:
   title: 'CoCoVaD -- Continuous and Collaborative Value Delivery'
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://CoCovaD.github.io/website
-  start_page: master.adoc
+  start_page: cocovad::master.adoc
 
 content:
   sources:
@@ -17,9 +17,9 @@ content:
   #   start_path: docs
   # - url: https://github.com/jmbruel/but1.git
   #   start_path: docs
-  # - url: .
-    branches: HEAD
-    start_path: docs
+    - url: .
+      branches: HEAD
+      start_path: docs
 
 ui:
   bundle:
