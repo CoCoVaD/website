@@ -1,4 +1,4 @@
-= CoCoVaD
+= Continuous and Collaborative Value Delivery
 Jean-Michel Bruel <bruel@irit.fr>
 v1.0, {localdate}
 :myinitials: JMB
@@ -7,10 +7,11 @@ v1.0, {localdate}
 // short full basic
 :experimental:
 
-//include::ROOT:page$definitions.adoc[]
-
-CAUTION: Site under construction!! 
+include::ROOT:page$definitions.adoc[]
 
 image::cocovad.png[Chair logo]
 
-Details coming soon..
+CAUTION: Site under construction!! 
+
+
+Details coming soon...
