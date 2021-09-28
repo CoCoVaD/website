@@ -1,6 +1,6 @@
-= Antora Boostrap 
-:website: https://jmbruel.github.io/antora-template
-:baseURL: https://github.com/jmbruel/antora-template
+= Welcome to CoCoVaD 
+:website: https://CoCoVaD.github.io/website
+:baseURL: https://github.com/CoCoVaD/website
 // Specific to GitHub
 ifdef::env-github[]
 :tip-caption: :bulb:
@@ -16,7 +16,7 @@ image:{baseURL}/actions/workflows/main.yml/badge.svg[Deployed] image:https://img
 
 CAUTION: Site under construction!! 
 
-This is my template for Antora-based documentation sites.
+This is an Antora-based documentation site.
 
 The (automatically) deployed web pages are here: {website}.
 

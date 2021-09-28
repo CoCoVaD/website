@@ -1,4 +1,4 @@
-= Département Informatique -- IUT de Blagnac
+= CoCoVaD
 Jean-Michel Bruel <bruel@irit.fr>
 v1.0, {localdate}
 :myinitials: JMB
@@ -11,8 +11,6 @@ include::ROOT:page$definitions.adoc[]
 
 CAUTION: Site under construction!! 
 
-image::dpt-info.png[Dpt Info]
+image::cocovad.png[Chair logo]
 
-Ce site regroupe les informations concernant le département informatique de l'{iut} de l'{ut2j}.
-
-Pour des informations générales sur le BUT Informatique : https://www.iut-blagnac.fr/fr/formations/dut-informatique.
+Details coming soon..

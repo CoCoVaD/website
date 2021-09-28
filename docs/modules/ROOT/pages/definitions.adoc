@@ -3,26 +3,10 @@
 
 // Required mmacros
 :FR:
-:plantuml-server-url: http://www.plantuml.com/plantuml
+// :plantuml-server-url: http://www.plantuml.com/plantuml
 
 // Définition des enseignants
-:ap: A. Peninou
-:ep: E. Pendaries
 :jmb: mailto:jbruel@gmail.com[J.-M. Bruel]
-:lc: L. Chanouha
-:lr: mailto:laurence.redon@uni-tlse2.fr[L. Redon]
-:pso: P. Sotin
-:tg: T. Goubin
-
-// raccourcis des titres
-:c1-title: Développer des applications
-:c2-title: Optimiser des applications informatiques
-:c3-title: Administrer des systèmes informatiques communicants complexes
-:c4-title: Gérer des données de l’information
-:c5-title: Gérer un projet
-:c6-title: Travailler dans une équipe informatique
-
-:r1-03-title: Introduction à l’architecture des ordinateurs
 
 // raccourcis sites et outils
 :aadl: http://www.aadl.info/[AADL]indexterm:[AADL]

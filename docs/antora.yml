@@ -1,14 +1,14 @@
 # https://docs.antora.org/antora/2.3/component-version-descriptor/
 
 # https://docs.antora.org/antora/2.3/component-name-and-version/
-name: dpt
+name: cocovad
 version: '1.0'
 
 # https://docs.antora.org/antora/2.3/component-display-version/
 # display_version: α
 
 # https://docs.antora.org/antora/2.3/component-title/
-title: Département Informatique Blagnac
+title: CoCoVaD Airbus Chair
 
 # https://docs.antora.org/antora/2.3/component-start-page/
 start_page: ROOT:master.adoc
