@@ -1,6 +1,6 @@
 = PostDoc Hiring 
 Jean-Michel Bruel <bruel@irit.fr>
-v1.0, {localdate}
+v1.1, {localdate}
 
 include::ROOT:page$definitions.adoc[]
 
@@ -19,23 +19,38 @@ Despite the success of Model-Based Systems Engineering (MBSE) adoption, its appl
 The inherent complexity in terms of implied domains or of massively heterogeneous and poorly related data is not weaved by the simple use of a formal and disciplined modeling approach. 
 A collaborative and continuous framework and process are required and need to aggregate up-to-date technologies in complementary techniques such as models, ontologies, and complex data management. 
 
+// ******************** 
+== Job details
 // ********************
+
+You will be member of the {irit} laboratory and join the {Airbus} IDMR department, in charge of the Modeling & Simulation research program of the _Digital Design Manufacturing & Services_ (DDMS) transformation of the company.
+
+You will be responsible of the main following activities:
+
+- Writing the requirements for the projects
+- Establishing a sandbox framework compatible with the project's cases studies and current applications
+- Studying the current state of the art on ontologies, data-driven modeling and their application to complex systems engineering
+- Refining the initial project roadmaps
+- Helping refine upcoming Ph.Ds perimeters and missions
+
+// ******************** 
 == Who can apply?
 // ********************
 
-Outstanding candidates will have the opportunity to work in advanced topics.
-{Airbus} intends to hire in permanent contract (_CDI_ in French) the selected engineer at the end of the postdoc.
+Outstanding candidates will have the opportunity to work on advanced topics.
+{Airbus} intends to hire with a permanent contract (_CDI_ in French) the selected engineer at the end of the postdoc.
 Candidates not interested in that possibility are asked not to submit.
+The position does not require any security habilitation.
 
 We are looking for a Post-Doc candidate with the following skills:
 
 - Knowledge of language theory and model transformations;
 - Notions of Systems Engineering;
 - Autonomy in daily work;
-- Ability to work within a small team, and with an international network of collaborators;
+- Ability to work within a small team and with an international network of collaborators;
 - Aiming at regularly publishing in top venues;
 - Excellent English skills (both spoken and written) for scientific
-communication (although French may certainly be used for every-day life);
+communication (although French may certainly be used for everyday life);
 - Aiming at joining {Airbus} at the end of the post-doc to integrate the MBSE team and continue working on the Chaire activities.
 
 // ***********************
@@ -44,30 +59,30 @@ communication (although French may certainly be used for every-day life);
 
 The position will be held in the {iut} close-by {Airbus}' offices.
 
-Toulouse is the capital of Occitanie and Aeronautics.  It is a well connected city,
+Toulouse is the capital of Occitanie and Aeronautics.  It is a well-connected city,
 with lots of students and IT companies.
 
-The funding is a available for a duration of one year, with a possible extension of 6 months (for a total of 1.5 years), and amounts up to 4.000 €/month according to the candidate experience.
+The funding is available for one year, with a possible extension of 6 months (for a total of 1.5 years), and amounts up to 4.000 €/month according to the candidate's experience.
 
 // *******************
 == How to apply? 
 // *******************
 
 For more information on the research and/or the position, please contact 
-Jean-Michel Bruel (bruel@irit.fr) including a copy of your CV (with references).
+Jean-Michel Bruel (bruel@irit.fr), including a copy of your CV (with references).
 Screening of potential candidates will start immediately and until the position is filled. 
 
 Formal application requires:
 
 * A full CV, including a publication list;
 * A Cover Letter of max. 2 pages describing your skills, experience, and why you are the best candidate to hire for this project;
-* A Copy of the Ph.D. diploma (or report, if diploma not available yet);
+* A copy of the Ph.D. diploma (or report, if diploma not available yet);
 * Optionally, some recommendation letters (up to three).
 
 Please use "[CoCoVaD PostDoc]" in your email's subject to facilitate its processing.
 
-Applications will start from the opening publication date, and will continue until the position is filled. 
-The selection will include an interview (most likely operated online) consisting in presenting the candidate's views on his own experience and the relevance for the project, as well as early takeouts on the project's topic.
+Applications will start from the opening publication date and will continue until the position is filled. 
+The selection will include an interview (most likely operated online) consisting of presenting the candidate's views on his own experience and the relevance for the project and early takeouts on the project's topic.
 
 The {ut2j} promotes diversity in employment and welcomes applications from all sections of the community.
 
