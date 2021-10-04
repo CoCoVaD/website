@@ -42,10 +42,11 @@ Outstanding candidates will have the opportunity to work on advanced topics.
 Candidates not interested in that possibility are asked not to submit.
 The position does not require any security habilitation.
 
-We are looking for a Post-Doc candidate with the following skills:
+We are looking for a Post-Doc candidate with the following:
 
+- A Ph.D. in Model-Based Systems Engineering;
 - Knowledge of language theory and model transformations;
-- Notions of Systems Engineering;
+- Experience in at least one concrete Systems Engineering domain (aeronautics preferably);
 - Autonomy in daily work;
 - Ability to work within a small team and with an international network of collaborators;
 - Aiming at regularly publishing in top venues;
