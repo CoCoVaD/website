@@ -15,6 +15,9 @@ docs/modules/ROOT/pages/master.html: docs/modules/ROOT/pages/master.adoc playboo
 clean:
 	rm *.html
 
+init:
+	npm i asciidoctor asciidoctor-kroki
+	
 check:
 	cucumber
 

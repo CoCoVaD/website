@@ -2,9 +2,17 @@
 Jean-Michel Bruel <bruel@irit.fr>
 v1.1, {localdate}
 
+ifndef::backend-pdf[]
+
 include::ROOT:page$definitions.adoc[]
 
 CAUTION: Page under construction!! 
+
+endif::[]
+ifdef::backend-pdf[]
+include::definitions.adoc[]
+endif::[]
+
 
 The {cocovad} is hiring an *18 months Post-Doc position*.
 Hold at {ut2j}, in collaboration with {irit} Laboratory, 
@@ -44,14 +52,14 @@ The position does not require any security habilitation.
 
 We are looking for a Post-Doc candidate with the following:
 
-- A Ph.D. in Model-Based Systems Engineering;
+- A Ph.D. in eithe Model-Based or Systems Engineering (ideally both);
+// - Experience in at least one concrete Systems Engineering domain (aeronautics preferably);
+- Some industrial experience;
 - Knowledge of language theory and model transformations;
-- Experience in at least one concrete Systems Engineering domain (aeronautics preferably);
 - Autonomy in daily work;
 - Ability to work within a small team and with an international network of collaborators;
 - Aiming at regularly publishing in top venues;
-- Excellent English skills (both spoken and written) for scientific
-communication (although French may certainly be used for everyday life);
+- Excellent English skills (both spoken and written) for scientific communication (although French may certainly be used for everyday life);
 - Aiming at joining {Airbus} at the end of the post-doc to integrate the MBSE team and continue working on the Chaire activities.
 
 // ***********************
@@ -59,10 +67,8 @@ communication (although French may certainly be used for everyday life);
 // ***********************
 
 The position will be held in the {iut} close-by {Airbus}' offices.
-
 Toulouse is the capital of Occitanie and Aeronautics.  It is a well-connected city,
 with lots of students and IT companies.
-
 The funding is available for one year, with a possible extension of 6 months (for a total of 1.5 years), and amounts up to 4.000 €/month according to the candidate's experience.
 
 // *******************
@@ -72,7 +78,6 @@ The funding is available for one year, with a possible extension of 6 months (fo
 For more information on the research and/or the position, please contact 
 Jean-Michel Bruel (bruel@irit.fr), including a copy of your CV (with references).
 Screening of potential candidates will start immediately and until the position is filled. 
-
 Formal application requires:
 
 * A full CV, including a publication list;
@@ -81,10 +86,8 @@ Formal application requires:
 * Optionally, some recommendation letters (up to three).
 
 Please use "[CoCoVaD PostDoc]" in your email's subject to facilitate its processing.
-
 Applications will start from the opening publication date and will continue until the position is filled. 
 The selection will include an interview (most likely operated online) consisting of presenting the candidate's views on his own experience and the relevance for the project and early takeouts on the project's topic.
-
 The {ut2j} promotes diversity in employment and welcomes applications from all sections of the community.
 
 // ***************
