@@ -15,8 +15,7 @@ endif::[]
 
 
 The {cocovad} is hiring an *18 months Post-Doc position*.
-Hold at {ut2j}, in collaboration with {irit} Laboratory, 
-the project takes place in an industrial Chair with {Airbus}, the worldwide aeronautic leader. 
+Hold at {ut2j}, in collaboration with {irit} Laboratory, the project takes place in an industrial Chair with {Airbus}, the worldwide aeronautic leader. 
 
 // *******************************************
 == Collaborative & Continuous Value Delivery
@@ -31,15 +30,17 @@ A collaborative and continuous framework and process are required and need to ag
 == Job details
 // ********************
 
-You will be member of the {irit} laboratory and join the {Airbus} IDMR department, in charge of the Modeling & Simulation research program of the _Digital Design Manufacturing & Services_ (DDMS) transformation of the company.
+You will be a member of the {irit} laboratory and join the {Airbus} IDMR department, in charge of the Modeling & Simulation research program of the _Digital Design Manufacturing & Services_ (DDMS) transformation of the company.
 
-You will be responsible of the main following activities:
+The concrete issues we plan to solve in this project is to reduce the testing efforts induced by the increasing complexity of systems. While formal verification promises to relieve that effort, providing a formal specification, however, is a difficult task. Focussing on requirements and models' integration the target outcome will be a continuously integrated framework supporting artifacts that are more amenable, but still formal enough to
+increase the confidence that the system will pass certification tests. 
+In that context, you will be responsible for the following main activities:
 
 - Writing the requirements for the projects
 - Establishing a sandbox framework compatible with the project's cases studies and current applications
-- Studying the current state of the art on ontologies, data-driven modeling and their application to complex systems engineering
+- Studying the current state of the art on ontologies, data-driven modeling, and their application to complex systems engineering
 - Refining the initial project roadmaps
-- Helping refine upcoming Ph.Ds perimeters and missions
+- Helping refine the upcoming PhDs' perimeters and missions
 
 // ******************** 
 == Who can apply?
@@ -52,15 +53,15 @@ The position does not require any security habilitation.
 
 We are looking for a Post-Doc candidate with the following:
 
-- A Ph.D. in eithe Model-Based or Systems Engineering (ideally both);
+- A Ph.D. in either Model-Based or Systems Engineering (ideally both);
 // - Experience in at least one concrete Systems Engineering domain (aeronautics preferably);
 - Some industrial experience;
 - Knowledge of language theory and model transformations;
 - Autonomy in daily work;
 - Ability to work within a small team and with an international network of collaborators;
 - Aiming at regularly publishing in top venues;
-- Excellent English skills (both spoken and written) for scientific communication (although French may certainly be used for everyday life);
-- Aiming at joining {Airbus} at the end of the post-doc to integrate the MBSE team and continue working on the Chaire activities.
+- Excellent English skills (both spoken and written) for scientific communication (although French may undoubtedly be used for everyday life);
+- Aiming at joining {Airbus} at the end of the postdoc to integrate the MBSE team and continue working on the Chaire activities.
 
 // ***********************
 == Where do we work?
@@ -78,10 +79,10 @@ The funding is available for one year, with a possible extension of 6 months (fo
 For more information on the research and/or the position, please contact 
 Jean-Michel Bruel (bruel@irit.fr), including a copy of your CV (with references).
 Screening of potential candidates will start immediately and until the position is filled. 
-Formal application requires:
+The formal application requires:
 
 * A full CV, including a publication list;
-* A Cover Letter of max. 2 pages describing your skills, experience, and why you are the best candidate to hire for this project;
+* A Cover Letter of max. two pages describing your skills, experience, and why you are the best candidate to hire for this project;
 * A copy of the Ph.D. diploma (or report, if diploma not available yet);
 * Optionally, some recommendation letters (up to three).
 

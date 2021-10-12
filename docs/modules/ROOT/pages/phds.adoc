@@ -6,4 +6,4 @@ include::ROOT:page$definitions.adoc[]
 
 CAUTION: Page under construction!! 
 
-The {cocovad} hires three Ph.Ds in the context of ...
+The {cocovad} will hire three PhDs in 2022. Stay tuned here or contact {holder}.

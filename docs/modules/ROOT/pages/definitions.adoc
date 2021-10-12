@@ -6,10 +6,13 @@
 // :plantuml-server-url: http://www.plantuml.com/plantuml
 
 // Definitions
-:jmb: mailto:jbruel@gmail.com[J.-M. Bruel]
+:jmb: mailto:bruel@irit.fr[J.-M. Bruel]
+:holder: {jmb}
 :myinitials: JMB
 :icons: font
 :xrefstyle: short
+
+
 // short full basic
 :experimental:
 :cocovad-url: https://CoCovaD.github.io/website
