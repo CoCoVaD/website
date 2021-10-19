@@ -1,6 +1,11 @@
-= PostDoc Hiring 
+= PostDoc in MBSE & DevOps
 Jean-Michel Bruel <bruel@irit.fr>
-v1.1, {localdate}
+v1.2, {localdate}
+
+// ------ Changelog ------
+// 1.0: First Draft
+// 1.1: Yves feedback
+// 1.2: Marc feedback
 
 ifndef::backend-pdf[]
 
@@ -13,6 +18,8 @@ ifdef::backend-pdf[]
 include::definitions.adoc[]
 endif::[]
 
+*Keywords*::
+MBSE; Model-Based Systems Engineering; Ontologies; DevOps; Requirements
 
 The {cocovad} is hiring an *18 months Post-Doc position*.
 Hold at {ut2j}, in collaboration with {irit} Laboratory, the project takes place in an industrial Chair with {Airbus}, the worldwide aeronautic leader. 
@@ -36,7 +43,7 @@ The concrete issues we plan to solve in this project is to reduce the testing ef
 increase the confidence that the system will pass certification tests. 
 In that context, you will be responsible for the following main activities:
 
-- Writing the requirements for the projects
+- Participate in the requirement elicitation and refinement, based on the state of the art and the various constraints
 - Establishing a sandbox framework compatible with the project's cases studies and current applications
 - Studying the current state of the art on ontologies, data-driven modeling, and their application to complex systems engineering
 - Refining the initial project roadmaps
