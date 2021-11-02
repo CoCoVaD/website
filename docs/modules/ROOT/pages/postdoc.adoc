@@ -42,8 +42,7 @@ A collaborative and continuous framework and process are required and need to ag
 
 You will be a member of the {irit} laboratory and join the {Airbus} IDMR department, in charge of the Modeling & Simulation research program of the _Digital Design Manufacturing & Services_ (DDMS) transformation of the company.
 
-The concrete issues we plan to solve in this project is to reduce the testing efforts induced by the increasing complexity of systems. While formal verification promises to relieve that effort, providing a formal specification, however, is a difficult task. Focussing on requirements and models' integration the target outcome will be a continuously integrated framework supporting artifacts that are more amenable, but still formal enough to
-increase the confidence that the system will pass certification tests. 
+The concrete issue we plan to solve in this project is to reduce the testing efforts induced by the increasing complexity of systems. While formal verification promises to relieve that effort, providing a formal specification is a difficult task. Focussing on requirements' and models' integration, the target outcome will be a continuously integrated framework supporting more amenable artifacts but still formal enough to increase the confidence that the system will pass certification tests. 
 In that context, you will be responsible for the following main activities:
 
 - Participate in the requirement elicitation and refinement, based on the state of the art and the various constraints
