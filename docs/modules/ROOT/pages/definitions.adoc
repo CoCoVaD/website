@@ -151,3 +151,6 @@ ifdef::env-github[]
 :fr-icon: :fr:
 endif::[]
 
+// Interesting links
+
+:lemonTree: https://help.lieberlieber.com/display/LT/LemonTree+and+GitFlow
