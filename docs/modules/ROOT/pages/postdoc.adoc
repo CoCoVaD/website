@@ -1,3 +1,6 @@
+// ifndef::backend-pdf[]
+// = PostDoc in MBSE & DevOps (https://github.com/CoCoVaD/website/blob/master/docs/modules/ROOT/pages/postdoc.pdf[pdf version])
+// endif::[]
 = PostDoc in MBSE & DevOps
 Jean-Michel Bruel <bruel@irit.fr>
 v1.2, {localdate}
@@ -11,7 +14,7 @@ ifndef::backend-pdf[]
 
 include::ROOT:page$definitions.adoc[]
 
-CAUTION: Page under construction!! 
+// CAUTION: Page under construction!! 
 
 endif::[]
 ifdef::backend-pdf[]
