@@ -101,7 +101,7 @@ The following section details these subjects.
 
 === 3.1 Precise actions
 
-The increasing complexity of systems drives an increase in the effort required for testing. Formal verification promises to relieve that effort by providing evidence of correctnessfootnote:[Correctness: Fulfilment of ail stated requirements. In some cases also a guarantee of equivalence between state spaces.] without requiring the explicit execution of tests, but by leveraging computational logic to symbolically deduce whether a system design is correct, producing either a structured proof of correctness or a counterexample (a concrete set of system states that
+The increasing complexity of systems drives an increase in the effort required for testing. Formal verification promises to relieve that effort by providing evidence of correctnessfootnote:[Correctness: Fulfillment of all stated requirements. In some cases also a guarantee of equivalence between state spaces.] without requiring the explicit execution of tests, but by leveraging computational logic to symbolically deduce whether a system design is correct, producing either a structured proof of correctness or a counterexample (a concrete set of system states that
 violate the specification).
 
 Providing a formal specification, however, is also a difficult task. Requirements are usually expressed informally as text and omit implicit knowledge (sometimes purposefully). Formalizing those requirements thus requires additional effort and knowledge in the particular specification language, which in general cannot be
@@ -119,7 +119,7 @@ Additionally, having a limited certification scope allows concentrating the veri
 A proof obtained in this manner then increases the confidence that the system will pass certification tests. This is narrower than the required confidence that the system in general fulfills its requirements, but improves the overall testing effort by covering significant portions of the state space of the system while also providing formal descriptions of the parts of the system’s behavior that still require testing.
 
 === 3.2 Strategic Orientation Committee (SOC)
-The member of the Strategic Orientation Committee are detailed in Annex 2 of the contract.
+The member of the Strategic Orientation Committee are detailed in <<Annex 1>> of the contract.
 
 === 3.3 Detailed Ph.D. and PostDoc subjects
 
@@ -181,7 +181,7 @@ IRIT laboratory experiences in the topics include:
 
 _Ph.D. 3 - Requirement Formalization_
 
-One of the main challenges to performing formal verification is the system specification. That is, providing a mathematical description of the required system composition (for exam pie, redundancy, dimensions, physical constraints) and of the required system behavior. For instance, a formal description of the set of states of a system together with a function that classifies those states between desired and undesired states. Orthogonal to this classification, some sources distinguish between non-functional and functional requirements. 
+One of the main challenges to performing formal verification is the system specification. That is, providing a mathematical description of the required system composition (for example, redundancy, dimensions, physical constraints) and of the required system behavior. For instance, a formal description of the set of states of a system together with a function that classifies those states between desired and undesired states. Orthogonal to this classification, some sources distinguish between non-functional and functional requirements. 
 
 Depending on the nature of an Airbus’s industrial case studies determine the formalism that optimally captures that requirement. In some occasions, the focus lies on achieving mutual understanding between interested parties (e.g., a certification authority and a system designer). Here, graphical languages with formal semantics could pose a suitable solution <<Dietsch>>.
 
@@ -325,7 +325,7 @@ Deliverables:
 
 == 4. Stakeholders description
 === 4.1 Presentation of the titular
-Jean-Michel Bruel is head of the SM@RT team of the IRIT CNRS laboratory. His research areas include the development of software-intensive Cyber-Physical Systems, and methods/model/language integration, with a focus on Requirements and Model-Based Systems Engineering. He has defended his ``Habilitation à Diriger des Recherches” in December 2006 and obtained in 2008 a full professor position at the University of Toulouse. He has been head of the Computer Science department of the Technical Institute of Blagnac from 2009 to 2012 and Laboratory Representative for the Toulouse 2 Jean Jaurès University from 2016 to 2020. He is now a member of the Strategic Research Committee of the IRIT CNRS laboratory since 2021.
+Jean-Michel Bruel is head of the SM@RT team of the IRIT CNRS laboratory. His research areas include the development of software-intensive Cyber-Physical Systems, and methods/model/language integration, with a focus on Requirements and Model-Based Systems Engineering. He has defended his "Habilitation à Diriger des Recherches" in December 2006 and obtained in 2008 a full professor position at the University of Toulouse. He has been head of the Computer Science department of the Technical Institute of Blagnac from 2009 to 2012 and Laboratory Representative for the Toulouse 2 Jean Jaurès University from 2016 to 2020. He is now a member of the Strategic Research Committee of the IRIT CNRS laboratory since 2021.
 
 === 4.2 Academic memebers' expertise
 Here is a non-exhaustive list of recent experiences on the subjects to be addressed by the Chair by involved memebers of IRIT laboratory:
@@ -375,11 +375,11 @@ Here is a non-exhaustive list of recent experiences on the subjects to be addres
 
 * [[[Neeraj, 15]]] Neeraj Kumar Singh, Yamine Aït Ameur, Dominique Méry. Formal Ontoiogy Driven Model Refactoring. ICECCS 2018: 136-1 45.
 
-== Annex 2
+== Annex 1
 
 *LISTE DES REPRÉSENTANTS DU COMITÉ*
 
-(also called SOC -Strategic Orientation Committee - in Annexes 1 & 2)
+//(also called SOC -Strategic Orientation Committee - in Annexes 1 & 2)
 
 This list is not exhaustive and may evolve according to the research needs.
 
