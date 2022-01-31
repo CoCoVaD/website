@@ -82,7 +82,7 @@ Here are the key objectives of the Chair classified by priority:
 
 === 2.2 State of the art
 
-This chair project aims at addressing ail these dimensions in a complementary effort. it is one effort in a constellation of MBSE-related efforts conducted by Airbus (IRT projects, International and National Chairs, Collaborations).
+This chair project aims at addressing all these dimensions in a complementary effort. it is one effort in a constellation of MBSE-related efforts conducted by Airbus (IRT projects, International and National Chairs, Collaborations).
 
 In the context of the present chair project, three main key concerns have been identified as critical and will be addressed by three dedicated Ph.D. included in this Chair. A postdoctoral engineer included in this Chair will initiate the research and help define the precise perimeters and targets of each Ph.D.
 
@@ -161,7 +161,7 @@ IRIT laboratory experiences in the topics include:
 
 _Ph.D. 2 - Model Validation_
 
-Having proven properties on a system model requires also showing that the model s an accurate image of the system under consideration. Only then can any daims of correctness (and thus, any confidence in the real system) be substantiated. This usually requires two complementary validation activities. First, showing that the model is a valid abstraction of the system, i.e., that ail relevant behaviors 0f the system are captured by the model. And second, showing that any system behaviors abstracted in the model do not affect the satisfaction of the verified properties. 
+Having proven properties on a system model requires also showing that the model s an accurate image of the system under consideration. Only then can any claims of correctness (and thus, any confidence in the real system) be substantiated. This usually requires two complementary validation activities. First, showing that the model is a valid abstraction of the system, i.e., that all relevant behaviors of the system are captured by the model. And second, showing that any system behaviors abstracted in the model do not affect the satisfaction of the verified properties. 
 
 Model validation can be achieved incrementally by the application of several techniques that are current research topics:
 
@@ -185,7 +185,7 @@ One of the main challenges to performing formal verification is the system speci
 
 Depending on the nature of an Airbus’s industrial case studies determine the formalism that optimally captures that requirement. In some occasions, the focus lies on achieving mutual understanding between interested parties (e.g., a certification authority and a system designer). Here, graphical languages with formal semantics could pose a suitable solution <<Dietsch>>.
 
-Additionally, it is necessary to identify the aspects necessary to formally capture a requirement and which increase the complexity of both deriving a formalization, and of analyzing any system against that requirement. For instance, requirements may range from sim pie integer constraints (e.g. "`A minimum of two cross-strapped redundant units`") to real-time and probabilistic specifications (e.g. "`The response shall be returned within 100ms in 95% of the cases`") to completely intermixed statements of correctness (e.g. "`The tank valve should switch over to the auxiliary tank within 50 ms if the discharge rate exceeds 100 mm^3^/sec, the discharge rate should not exceed 150 mm^3^/sec for 99% of any 10 sec period`").
+Additionally, it is necessary to identify the aspects necessary to formally capture a requirement and which increase the complexity of both deriving a formalization, and of analyzing any system against that requirement. For instance, requirements may range from simple integer constraints (e.g. "`A minimum of two cross-strapped redundant units`") to real-time and probabilistic specifications (e.g. "`The response shall be returned within 100ms in 95% of the cases`") to completely intermixed statements of correctness (e.g. "`The tank valve should switch over to the auxiliary tank within 50 ms if the discharge rate exceeds 100 mm^3^/sec, the discharge rate should not exceed 150 mm^3^/sec for 99% of any 10 sec period`").
 
 Several approaches have been proposed to tackle the challenge of specification.
 
@@ -205,7 +205,7 @@ IRIT laboratory experiences in the topics include:
 
 === 3.4 Project structure
 
-The chair is not organized as a project as such. Nevertheless, to organize and orchestrate the complementarystudies, we have identified 5 work packages (WP, or tasks):
+The chair is not organized as a project as such. Nevertheless, to organize and orchestrate the complementary studies, we have identified 5 work packages (WP, or tasks):
 
 *WPO (M0-M60) Project management.* Leader: Jean-Michel Bruel
 
