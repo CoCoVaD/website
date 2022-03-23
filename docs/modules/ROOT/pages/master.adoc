@@ -6,12 +6,15 @@ v1.0, {localdate}
 :xrefstyle: short
 // short full basic
 :experimental:
+:numbered:
 
 include::ROOT:page$definitions.adoc[]
 
 image::cocovad.png[Chair logo]
 
 CAUTION: Site under construction!! 
+
+This document describes the research project and objectives of the chair.
 
 == Overview
 
@@ -20,6 +23,377 @@ The inherent complexity in terms of implied domains or of massively heterogeneou
 A collaborative and continuous framework and process are required and need to aggregate up-to-date technologies in complementary techniques such as models, ontologies, and complex data management. 
 It is the purpose of this Chair to study and make effective such complementarity.
 
-== Details
+[[context]]
+== Context and objectives of the chair
 
-Coming soon...
+=== Context 
+
+The project will address four key challenges of the current use of models in systems engineering, and that we
+summarize by the following terms:
+
+* *Vertical Integration* (different levels of abstraction): how to deal with models at multiple levels of abstraction during the development process? How to use semantics to integrate along with different levels of abstraction/details: the definition of systems and subsystems, the simulation models characterizing the behaviors of these systems and subsystems, the propagation of requirements and constraints downstream?
+
+* *Horizontal Integration* (same levels of abstraction): how do deal with models from multiple domains, sometimes from different partners, using sometimes different terms for similar concepts? How to use semantics for complex product integration: the different aspects of a system of interest, it’s enabling systems and it’s relevant operations eco-systems?
+
+* *Lifecycle Integration* (different lifecycle phases): how to keep track of the models’ evolutions? How to use semantics to integrate along the different stages of developments of a system : the decompositions in sub-systems envisaged and traded, the traceability of the decision path leading to from initial specification to final implementation and simulation?
+
+* *Continuous Integration*: how to continuously apply V&V without facing combinatorial complexity? How to use semantics to run rule-based audit of the models, and add comments in initial model where violations or suspicious configurations are detected (e.g., MOF template not applied, lexical dictionary
+not respected, interface present in one model and not in a counterpart one, ...).
+
+
+Here are some key considerations for the whole project:
+
+* The scientific investigations will have practical and realistic usage as a primary target and will keep coverage demonstration goals in mind. They will need to benefit from industrial case studies provided by Airbus, especially for the scalability studies (realistic, supported by concerned engineers).
+* The Extended Enterprise dimension and target will be a primary concern for all productions, and as such, might involve the collaboration of DDMS identified partners.
+
+Here are the key objectives of the Chair classified by priority:
+
+* Continuously support and automate V&V activities (Model checking, Theorem proving, or test cases generation)
+* Support merge of heterogeneous models (model alignments, ontologies) or incomplete models (AI)
+* Support decisions traceability (support for efficient machine learning) and identify common patterns for COTS-like library usage
+* Support both a posteriori verification (e.g., interface consistency) and a priori ones (e.g., no bidirectional flows)
+* Support genericity and composition of continuous integration artifacts
+* Support for justification/certification activities (e.g., demonstrate coverage in terms of exhaustivity of the properties to satisfy/certify)
+
+=== State of the art
+
+This chair project aims at addressing all these dimensions in a complementary effort. it is one effort in a constellation of MBSE-related efforts conducted by Airbus (IRT projects, International and National Chairs, Collaborations).
+
+In the context of the present chair project, three main key concerns have been identified as critical and will be addressed by three dedicated Ph.D. included in this Chair. A postdoctoral engineer included in this Chair will initiate the research and help define the precise perimeters and targets of each Ph.D.
+
+*Gaps overview* (post-doc 1): What s the current status of the state-of-the-art in the key enabling technologies?
+What are the limitations that should be tackled first?
+
+*Gap* 1 (Ph.D. 1): System formalization
+
+*Gap* 2 (Ph.D. 2): Model validation
+
+*Gap* 3 (Ph.D. 3): Requirement formalization
+
+The following section details these subjects.
+
+== Scientific program
+
+=== Precise actions
+
+The increasing complexity of systems drives an increase in the effort required for testing. Formal verification promises to relieve that effort by providing evidence of correctnessfootnote:[Correctness: Fulfillment of all stated requirements. In some cases also a guarantee of equivalence between state spaces.] without requiring the explicit execution of tests, but by leveraging computational logic to symbolically deduce whether a system design is correct, producing either a structured proof of correctness or a counterexample (a concrete set of system states that
+violate the specification).
+
+Providing a formal specification, however, is also a difficult task. Requirements are usually expressed informally as text and omit implicit knowledge (sometimes purposefully). Formalizing those requirements thus requires additional effort and knowledge in the particular specification language, which in general cannot be
+expected from the engineers who are in charge of writing requirements. Additionally, proving general correctness is still challenging for state-of-the-art formal verification techniques.
+
+A proposed alternative to obtaining formal specifications is to use certification requirements instead of general system requirements <<Feo-Arenis1>> <<Feo-Arenis2>>. Some certification requirements are usually expressed as test specifications, which have several characteristics that make them more amenable for formalization:
+
+- The operational scenarios for certification tests are well delimited in scope by specifying the environmental conditions in which tests are to be conducted.
+- The sequences of inputs, including alternatives and timing are clearly specified.
+- The expected outputs (or behavior) of the system under certification are also clearly specified.
+- The open nature of certification requirements makes them more appropriate to be used in research.
+
+Additionally, having a limited certification scope allows concentrating the verification efforts to relevant parts of the system, thus improving the tractability of the verification problem.
+
+A proof obtained in this manner then increases the confidence that the system will pass certification tests. This is narrower than the required confidence that the system in general fulfills its requirements, but improves the overall testing effort by covering significant portions of the state space of the system while also providing formal descriptions of the parts of the system’s behavior that still require testing.
+
+[[soc]]
+=== Strategic Orientation Committee (SOC)
+
+The decisions will be submitted to Strategic Orientation Committee.
+The member of the committee are detailed in <<annex-soc>> of the contract.
+
+=== Detailed Ph.D. and PostDoc subjects
+
+_General principles_
+
+An initial postdoc study will start at M0 of the project and will define the precise roadmap for the research and more specifically the method and the list of tasks to be performed by the Ph.D.s that will start six months later. For now three Ph.D.s are foreseen, but according to the conclusions of the initial postdoc study (urgent results needed, technical issues to be solved) this scheme could be replaced by two Ph.D.s and an additional postdoc (postdoc 2). The budget allows such flexibility. Deliverables and gantt will be updated accordingly after acceptance by the SOC.
+
+_Postdoc 1 - Precise roadmap definition_
+
+Starting as soon as possible (possibly at M0 of the project) an initial study will provide state-of-the-art information about the considered technologies described in this appendix. The goal will be to examine the current available techniques, the potential usability of existing approaches, not limited to the one available at the IRIT Laboratory, and will define the precise targets and roadmaps for the research and more specifically the method and the list of tasks to be performed by the Ph.D.s that will start six months later. Indeed the current proposal has been constructed on the basis of a mutual understanding that will need to be explored further to align the precise expectations with the research and human resources capabilities.
+
+The ideal candidate will have performed a Ph.D. on MBSE related field, if possible in an aeronautic application domain, and will have several industrial experiences or previous postdocs since. He will need to be able to address a wide spectrum of research topics (from Ontologies and metamodels to formal methods and data science).
+
+Key research topics: Modelling languages for discrete, continuous and hybrid systems, sound abstractions, proof methodologies, semantic integration of distributed models, application of AI for design abstraction and analysis.
+
+_Ph.D. 1 - System Formalization_
+
+Describing the behavior of the system requires finding the delicate balance between modelling detail and computational complexity. A model that is too abstract may lead to verification results that are unsound (a specification violation is signed that cannot occur in the actual system) or incomplete (a property that is actually fulfilled by the system cannot be proved correct). Conversely, a too detailed model may require a too long time or too large computational resources. Here, finding adequate modelling languages and corresponding methodologies to capture the system’s behaviors is key to achieving actionable results at an acceptable cost.
+
+This difficulty is exacerbated in the Airbus context by the highly distributed nature of the design and development processes.
+Here, it is important to clarify that an abstract, integrated model would not constitute an additional source of truth. During the abstraction process, links are to be preserved to the original information sources, so that the relationship between the integrated mode) and the source models is kept explicit. In this manner, the integrated model would provide a skeleton for system analysis that can be used to navigate.
+
+Key research topics include:
+
+- Modelling languages for discrete, continuous, and hybrid systems
+- Sound abstractions
+- Proof methodologies
+- Semantic integration of distributed models (model/metamodel/ontologies alignments)
+- Application of AI for design abstraction and analysis
+
+The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will have to interoperate with the targeted rule-based Continuous Integration platform as explored by WP2.
+
+IRIT laboratory experiences in the topics include:
+
+- Complex ontologies matching and alignments <<Élodie1>><<Élodie2>><<Neeraj>>
+- Domain specific languages (DSL) developments (for Requirements <<Florian>>, Component-based systems <<Grégory>>, States & Modes)
+- Rule-based systems formalization <<Mounira>>
+- Model alignment <<Saloua>>
+
+_Ph.D. 2 - Model Validation_
+
+Having proven properties on a system model requires also showing that the model s an accurate image of the system under consideration. Only then can any claims of correctness (and thus, any confidence in the real system) be substantiated. This usually requires two complementary validation activities. First, showing that the model is a valid abstraction of the system, i.e., that all relevant behaviors of the system are captured by the model. And second, showing that any system behaviors abstracted in the model do not affect the satisfaction of the verified properties. 
+
+Model validation can be achieved incrementally by the application of several techniques that are current research topics:
+
+- Observability and operability: In order to enable validation of a system against some design mode), minimum constraints on the ability to observe the internal state of the system and to influence that state through external interactions need to be derived
+- Correct-by-construction implementation: Certification of complete tool chains that allow deriving a system implementation from a verified model such that the correctness properties are preserved
+- Test case generation: derive a minimum set of test cases from the models that entail a sound approximation of the system behavior
+- Compositional proofs: decompose the requirements into intermediate goals that can be discharged through a combination of formal verification and testing.
+- Concolic testing: combining symbolic and concrete execution of the system (partial testing) to automatically derive a proof of validity
+- Runtime verification: Instrument the system implementation (usually done in software, but possibly supported by hardware) to monitor the satisfaction of requirements and signal any deviations (and possibly take corrective actions) 
+
+The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will be at the core of the targeted rule-based Continuous Integration platform. The incremental validation approach will take into account the formalisms as explored by WP1 for the system and by WP3 for the requirements.
+
+IRIT laboratory experiences in the topics include:
+
+- Ontology Early V&V <<Ronan1>>
+- MBSE and Simulations <<Renan2>>
+
+_Ph.D. 3 - Requirement Formalization_
+
+One of the main challenges to performing formal verification is the system specification. That is, providing a mathematical description of the required system composition (for example, redundancy, dimensions, physical constraints) and of the required system behavior. For instance, a formal description of the set of states of a system together with a function that classifies those states between desired and undesired states. Orthogonal to this classification, some sources distinguish between non-functional and functional requirements. 
+
+Depending on the nature of an Airbus’s industrial case studies determine the formalism that optimally captures that requirement. In some occasions, the focus lies on achieving mutual understanding between interested parties (e.g., a certification authority and a system designer). Here, graphical languages with formal semantics could pose a suitable solution <<Dietsch>>.
+
+Additionally, it is necessary to identify the aspects necessary to formally capture a requirement and which increase the complexity of both deriving a formalization, and of analyzing any system against that requirement. For instance, requirements may range from simple integer constraints (e.g. "`A minimum of two cross-strapped redundant units`") to real-time and probabilistic specifications (e.g. "`The response shall be returned within 100ms in 95% of the cases`") to completely intermixed statements of correctness (e.g. "`The tank valve should switch over to the auxiliary tank within 50 ms if the discharge rate exceeds 100 mm^3^/sec, the discharge rate should not exceed 150 mm^3^/sec for 99% of any 10 sec period`").
+
+Several approaches have been proposed to tackle the challenge of specification.
+
+Key research topics include:
+
+- Formal languages for the specification of behavioral properties: discrete, continuous, timed and hybrid temporal logics (and associated verification tools for temporal logics)
+- Formal semantics for system design specifications (formal fragments of UML / SysML etc)
+- Automatic extraction of formal requirements from textual specifications (NLP)
+- Requirement mining from examples (and counterexamples) 
+
+The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will have to interoperate with the targeted rule-based Continuous integration platform as explored by WP2.
+
+IRIT laboratory experiences in the topics include:
+
+- Domain specific languages (DSL) for Requirements <<Florian>>
+- Formal requirements <<Alexandr>>
+
+=== Project structure
+
+The chair is not organized as a project as such. Nevertheless, to organize and orchestrate the complementary studies, we have identified 5 work packages (WP, or tasks):
+
+*WPO (M0-M60) Project management.* Leader: Jean-Michel Bruel
+
+The objective is to ensure that the project meets its objectives within budget and scheduled timescales. it includes monitoring progress, tracking deliverables, and reporting back to the SOC. This WP ensures the administrative tasks and follows the project progress. The leader is the titular of the Chair. The steering
+committee helps him in this charge, under the supervision of the Strategic Orientation Committee (Section <<soc>>).
+
+Deliverables:
+
+[options="header,footer"]
+|=======================
+|Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
+
+|Minutes of Follow-Up meeting    |Every month     | POST-DOCTORATE(S) and THESIS | Full & understandable document, delivered end of each month
+
+|=======================
+
+*WP1 (M12-M48) System formalization* (mostly supported by *Ph.D. 1*). Leader: Nathalie Hernandez
+
+The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
+
+Deliverables:
+
+[options="header,footer"]
+|=======================
+|Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
+|Yearly progress presentation (Oral + written material) for Years 1 & 2   
+
+_Year 1: including detailed thesis specifications, state-of-the-art and conceptual model about systems formalization_
+
+_Year 2: including thesis progress, particularly the proposal of a preliminary definition of a method to model requirements for early validation and verification_
+
+|Every year    |THESIS     |Validation from SOC of both oral presentation & written material
+
+|Yearly presentation for Year 3 (Oral) + Final THESIS report    | End of the THESIS     |THESIS      |Validation from JURYfootnote:[JURY: experts] SOC of both oral presentation & written material (final THESIS report)
+
+|=======================
+
+_Nota Bene: Yearly presentation on thesis progress shall occur one month to 15 days before the payment mouth identified in Section 5.2 of the contract._
+
+*WP2 (M6-M42) Model validation* (mostly supported by *Ph.D. 2*). Leader: Marc Pantel
+
+The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
+
+Deliverables:
+
+[options="header,footer"]
+|=======================
+|Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
+|Yearly progress presentation (Oral + written material) for Years 1 & 2   
+
+_Year 1: including detailed thesis specifications, state-of-the-art and conceptual model about systems formalization_
+
+_Year 2: including thesis progress, particularly the proposal of a preliminary definition of a method to model requirements for early validation and verification_
+
+|Every year    |THESIS     |Validation from SOC of both oral presentation & written material
+
+|Yearly presentation for Year 3 (Oral) + Final THESIS report    | End of the THESIS     |THESIS      |Validation from SOC of both oral presentation & written material (final THESIS report)
+
+|=======================
+
+_Nota Bene: Yearly presentation on thesis progress shall occur one month to 15 days before the payment mouth identified in Section 5.2 of the contract._
+
+*WP3 (M12-M48) Requirement formalization* (mostly supported by *Ph.D. 3*). Leader: Sophie Ebersold
+
+The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
+
+Deliverables:
+
+[options="header,footer"]
+|=======================
+|Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
+|Yearly progress presentation (Oral + written material) for Years 1 & 2   
+
+_Year 1: including detailed thesis specifications, state-of-the-art and conceptual model about systems formalization_
+
+_Year 2: including thesis progress, particularly the proposal of a preliminary definition of a method to model requirements for early validation and verification_
+
+|Every year    |THESIS     |Validation from SOC of both oral presentation & written material
+
+|Yearly presentation for Year 3 (Oral) + Final THESIS report    | End of the THESIS     |THESIS      |Validation from SOC of both oral presentation & written material (final THESIS report)
+|=======================
+
+*WP4 (M0-M18) Precise roadmap definition* (mostly supported by *postdoc 1*). Leader: Sergio
+
+The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
+
+The method and the list of tasks to be performed by the three Ph.Ds. will be defined collectively by IRIT/Airbus.
+
+Deliverables:
+
+[options="header,footer"]
+|=======================
+|Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
+|Semestrial progress presentation (Oral + written material)   
+
+|Every semester    |POST-DOCTORATE     |Validation from SOC of both oral presentation & written material
+
+|Final Oral + POSTDOCTORAL report    | End of the POST-DOCTORATE     |POST-DOCTORATE      |Validation from SOC of both oral presentation & written material (final POST-DOCTORATE report)
+
+|=======================
+
+*WP5 (M0-M60) Diffusion and valorization.* Leader Jean-Michel Bruel. Dissemination actions will be done for each Ph.D. thesis, by publications in high-level International journals and conferences and in AFIS events in France.
+
+Wherever possible, results will be communicated for the creation of external awareness and knowledge building within the targeted systems engineers and scientific communities. The communication should guide and prepare potential users for the benefits and improvements that will be made possible by the expected
+outcomes of the chair. In order for the dissemination to be effective, several means will be used covering academic and industrial domains: publications in journals and conferences, participation in national and international events, workshops and press releases. Use Cases will be performed that specifically highlight the benefits for the complex system sectors and for the broader MBSE community, however the dissemination actions will also target a much wider international audience.
+
+Deliverables:
+
+[cols="^,<,<,<",options="header,footer"]
+|=======================
+|Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
+|(At least one) Scientific publication(s) |During or at the end of the THESIS    |THESIS     |Validation from the reviewing committee(s) of the publication(s)
+
+|Final synthesis of the CHAIR   | Before the end of the CONTRACT     |CONTRACT      |Validation from SOC
+
+|=======================
+
+== Presentation of the titular
+
+Jean-Michel Bruel was head of the SM@RT team of the IRIT CNRS laboratory until 2021. 
+His research areas include the development of software-intensive Cyber-Physical Systems, and methods/model/language integration, with a focus on Requirements and Model-Based Systems Engineering. He has defended his _Habilitation à Diriger des Recherches_ in December 2006 and obtained in 2008 a full professor position at the University of Toulouse. He has been head of the Computer Science department of the Technical Institute of Blagnac from 2009 to 2012 and Laboratory Representative for the Toulouse 2 Jean Jaurès University from 2016 to 2020. 
+Since 2021, he has joined the Strategic Research Committee of the IRIT CNRS laboratory and his head of the Computer Science Department of the Blagnac Institute of Technology.
+
+[bibliography]
+== References
+* [[[Feo-Arenis1, 1]]] Feo-Arenis, Sergio, et al. “Ready for testing: ensuring conformance to industrial standards through formal verification.” FormalAspects of Computing 28.3 (2016): 499-527.
+* [[[Feo-Arenis2, 2]]] Feo-Arenis, Sergio. A Formal Approach to the Development of Industrial Cyber-physical Systems. Diss. University of Freiburg, Freiburg im Breisgau, Germany, 2016.
+
+* [[[Dietsch, 3]]] Dietsch, Daniel, et al. “Disambiguation of industrial standards through formalization and graphical languages.” 2011 IEEE l9th International Requirements Engineering Conference. IEEE, 2011.
+
+* [[[Élodie1, 4]]] Élodie Thiéblin, Ollivier Haemmerlé, *Nathalie Hernandez*, Cassia Trojahn dos Santos. Survey on complex ontology matching. Semantic Web Journal, 11(4): p. 689-727, 2020.
+
+* [[[Élodie2, 5]]] Élodie Thiéblin, *Nathalie Hernandez*, Catherine Roussey, Cassia Trojahn. Cross-querying LOD data sets using complex alignments: an experiment using Agronomic Taxon, Agrovoc, DBpedia and TAXREF-LD. International Journal of Metadata, Semantics and Ontologies (IJMSO), Vol. 13, No. 2, p. 104-119, 2018.
+
+* [[[Dupont, 6]]] G Dupont, Y Aït-Ameur, *M Pantel*, NK Singh. An Event-B Based Generic Framework for Hybrid Systems Formal Modelling. International Conference on Integrated Formal Methods, 82-1 02.
+
+* [[[Jean-Michel, 7]]] *Jean-Michel Bruel*, Benoît Combemale, Esther Guerra, Jean-Marc Jézéquel, Jôrg Kienzle, Juan de Lara, Gunter Mussbacher, Eugene Syriani, Hans Vangheluwe. Comparing and classifying model transformation reuse approaches across metamodels. Software & Systems Modeling 19(2): 441-465 (2020).
+
+* [[[Alexandr, 8]]] Alexandr Naumchev, Bertrand Meyer, Manuel Mazzara, Fiorian Galinier, *Jean-Michel Bruel*, *Sophie Ebersold*. AutoReq: Expressing and verifying requirements for control systems. J. Comput. Lang. 51: 131-142 (2019).
+
+* [[[Ronan1, 9]]] Ronan Baduel, lulian Ober, *Jean-Michel Bruel*. Modeling and verification method for an early evaluation of Systems of Systems interactions. 35th Annual ACM Symposium on Applied Computing (SAC 2020), Mar 2020, Brno, Czech Republic. pp.1798-1805.
+
+* [[[Grégory, 10]]] Grégory Alary, *Nathalie Hernandez*, Jean-Paul Arcangeli, Sylvie Trouilhet, *Jean-Michel Bruel*. Using Comp-O to Build and Describe Component-Based Services. Demos and lndustry Tracks: From Novel Ideas to Industrial Practice (ISWC-Posters 2020) co-located with 19th International Semantic Web Conference, Nov
+2020, virtual conference, Greece. pp.152-l57.
+
+* [[[Renan2, 11]]] Renan Leroux-Beaudout, *Marc Pantel*, ileana Ober, *Jean-Michel Bruel*. Model-Based Systems Engineering for Systems Simulation. Symposium On Leveraging Applications of Formal Methods, Verification and Validation (ISoLA 2018), Oct 2018, Limassol, Cyprus. pp.429-448.
+
+* [[[Mounira, 12]]] Mounira Kezadri, *Marc Pantel*, XavierThirioux, Benoit Combemale. Correct-by-construction model driven engineering composition operators. Formal Aspects of Computing, Springer Verlag, 2016, 28 (3).
+
+* [[[Florian, 13]]] Florian Galinier, *Sophie Ebersold*, *Jean-Michel Bruel*. Requirements Specific Modeling Language : un langage formel d’expression d’exigences. Conférence en IngénieriE du Logiciel, Jun 2018, Grenoble, France.
+
+* [[[Saloua, 14]]] Saloua Bennani, lliass Ait El Kouch, Mahmoud El Hamlaoui, *Sophie Ebersold*, Bernard Coulette et al. A Formalization of Group Decision Making in Multi-Viewpoints Design. Communications in Computer and Information Science, Springer Verlag, 2020, 13 (1), pp.58.
+
+* [[[Neeraj, 15]]] Neeraj Kumar Singh, Yamine Aït Ameur, Dominique Méry. Formal Ontoiogy Driven Model Refactoring. ICECCS 2018: 136-1 45.
+
+[appendix]
+== Main acronyms
+
+DDMS:: Digital Design Manufacturing Services
+
+IRT:: Institut de Recherche Technologique
+
+IRIT:: Institut de Recherche en Informatique de Toulouse
+
+MBSE:: Model-Based Systems Engineering
+
+SOC:: Strategic Orientation Committee
+
+[[annex-soc]]
+[appendix]
+== Committee members
+
+//(also called SOC -Strategic Orientation Committee - in Annexes 1 & 2)
+
+This list is not exhaustive and may evolve according to the research needs.
+
+*IRIT* members
+|=======================
+|Pr. Jean-Michel BRUEL  |Titular of the chair
+|Dr. Sophie EBERSOLD    |Associate professor IRIT/UT2J, HdR
+      
+                         Member of the SM@RT team, Alignment expert
+|Dr. Marc PANTEL        |Associate professor IRIT/INPT
+      
+                         Member of the ACADIE team, MBSE expert
+|Dr. Nathalie HERNANDEZ  |Associate professor IRIT/UT2J
+      
+                         Member of the MELODI team, Ontology expert    
+|Pr. Jean-Marc PIERSON 
+(or his representative  |Professor IRIT/UT3
+                         Head of IRIT
+|=======================
+
+*Airbus* members
+
+|=======================
+|Dr. Sergio FEO-ARENIS  |Technical responsible of the chair on Airbus side
+                         Research Scientist in the Virtual product Engineering Domain
+|M. Thierry CHEVALIER   |DDMS, Head of Modeling & Simulation research
+
+                         Owener of the R&T ``Digital Design Manufacturing & Services Technology" roadmap (1DDM)
+      
+                         Member of the SM@RT team, Alignment expert
+|M. Benoit VIGNEAU      |DDMS, Head Of MBSE activities
+      
+                         Owner of the R&t ``Model-based Enginerring" roadmap (2MSE)
+|M. Carsten STROBEL     |R&T senior Research Project Leader
+      
+                         Co-Owner of the R&T ``Model-based Engineering" roadmap (2MSE)    
+|M. Alain KERBRAT      |E2E Systems MBSE specialist
+     
+|=======================
+
