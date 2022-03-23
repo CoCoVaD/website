@@ -6,6 +6,7 @@ v1.0, {localdate}
 :xrefstyle: short
 // short full basic
 :experimental:
+:numbered:
 
 include::ROOT:page$definitions.adoc[]
 
@@ -15,43 +16,17 @@ CAUTION: Site under construction!!
 
 This document describes the research project and objectives of the chair.
 
-[options="footer"]
-|=======================
-|*Acronym*                      |*CoCoVaD*                       
-|*Chair title*                  |*COllaborative & COntinuous VAlue Delivery* 
-|*Chair short description*      |Continuous integration of multiple models scattered today per disciplines, organizations, or tools.
-|*Titular*                      |Jean-Michel Bruel, member of the IRIT  laboratory and Professor at Université Toulouse 2 Jean Jaurès.       
-|*University*                   |Emmanuelle GARNIER, présidente de l’Université de Toulouse - Jean Jaurès
-|*Head of the Chair at Airbus*  |Thierry CHEVALIER, Airbus, DDMS Technical Leader
-|*Enterprise*                   |AIRBUS
-
-                               316 route de Bayonne 31060 Toulouse
-
-                               Alain TROPIS, Senior Vice president Digital Design Manufacturing & Services, Airbus
-|=======================
-
-*Main acronyms*
-
-IRT: Institut de Recherche Technologique
-
-IRIT: Institut de Recherche en Informatique de Toulouse
-
-MBSE: Model-Based Systems Engineering
-
-Airbus DDMS program: Airbus Digital Design Manufacturing Services program
-
-SOC: Strategic Orientation Committee (=”COMITE” in French)
-
-== 1. Overview
+== Overview
 
 Despite the success of Model-Based Systems Engineering adoption, its application at scale and in a continuous approach to ensure the delivery of added value for its adopters is far from straightforward. 
 The inherent complexity in terms of implied domains or of massively heterogeneous and poorly related data is not weaved by the simple use of a formal and disciplined modeling approach. 
 A collaborative and continuous framework and process are required and need to aggregate up-to-date technologies in complementary techniques such as models, ontologies, and complex data management. 
 It is the purpose of this Chair to study and make effective such complementarity.
 
-== 2. Context and objectives of the chair
+[[context]]
+== Context and objectives of the chair
 
-=== 2.1 Context 
+=== Context 
 
 The project will address four key challenges of the current use of models in systems engineering, and that we
 summarize by the following terms:
@@ -73,14 +48,14 @@ Here are some key considerations for the whole project:
 
 Here are the key objectives of the Chair classified by priority:
 
-. Continuously support and automate V&V activities (Model checking, Theorem proving, or test cases generation)
-. Support merge of heterogeneous models (model alignments, ontologies) or incomplete models (AI)
-. Support decisions traceability (support for efficient machine learning) and identify common patterns for COTS-like library usage
-. Support both a posteriori verification (e.g., interface consistency) and a priori ones (e.g., no bidirectional flows)
-. Support genericity and composition of continuous integration artifacts
-. Support for justification/certification activities (e.g., demonstrate coverage in terms of exhaustivity of the properties to satisfy/certify)
+* Continuously support and automate V&V activities (Model checking, Theorem proving, or test cases generation)
+* Support merge of heterogeneous models (model alignments, ontologies) or incomplete models (AI)
+* Support decisions traceability (support for efficient machine learning) and identify common patterns for COTS-like library usage
+* Support both a posteriori verification (e.g., interface consistency) and a priori ones (e.g., no bidirectional flows)
+* Support genericity and composition of continuous integration artifacts
+* Support for justification/certification activities (e.g., demonstrate coverage in terms of exhaustivity of the properties to satisfy/certify)
 
-=== 2.2 State of the art
+=== State of the art
 
 This chair project aims at addressing all these dimensions in a complementary effort. it is one effort in a constellation of MBSE-related efforts conducted by Airbus (IRT projects, International and National Chairs, Collaborations).
 
@@ -97,9 +72,9 @@ What are the limitations that should be tackled first?
 
 The following section details these subjects.
 
-== 3. Scientific program
+== Scientific program
 
-=== 3.1 Precise actions
+=== Precise actions
 
 The increasing complexity of systems drives an increase in the effort required for testing. Formal verification promises to relieve that effort by providing evidence of correctnessfootnote:[Correctness: Fulfillment of all stated requirements. In some cases also a guarantee of equivalence between state spaces.] without requiring the explicit execution of tests, but by leveraging computational logic to symbolically deduce whether a system design is correct, producing either a structured proof of correctness or a counterexample (a concrete set of system states that
 violate the specification).
@@ -118,10 +93,13 @@ Additionally, having a limited certification scope allows concentrating the veri
 
 A proof obtained in this manner then increases the confidence that the system will pass certification tests. This is narrower than the required confidence that the system in general fulfills its requirements, but improves the overall testing effort by covering significant portions of the state space of the system while also providing formal descriptions of the parts of the system’s behavior that still require testing.
 
-=== 3.2 Strategic Orientation Committee (SOC)
-The member of the Strategic Orientation Committee are detailed in <<Annex 1>> of the contract.
+[[soc]]
+=== Strategic Orientation Committee (SOC)
 
-=== 3.3 Detailed Ph.D. and PostDoc subjects
+The decisions will be submitted to Strategic Orientation Committee.
+The member of the committee are detailed in <<annex-soc>> of the contract.
+
+=== Detailed Ph.D. and PostDoc subjects
 
 _General principles_
 
@@ -129,7 +107,7 @@ An initial postdoc study will start at M0 of the project and will define the pre
 
 _Postdoc 1 - Precise roadmap definition_
 
-Starting as soon as possible (possibly at M0 of the project) an initial study will provide state-of-the-art information about the considered technologies described in this appendix. The goal will be to examine the current available techniques, the potential usability of existing approaches, not limited to the one available at the IRIT Laboratory, and will define the precise targets and roadmaps for the research and more specifically the method and the list of tasks to be performed by the Ph.D.s that will start six months later. Indeed the current proposai has been constructed on the basis of a mutual understanding that will need to be explored further to align the precise expectations with the research and human resources capabilities.
+Starting as soon as possible (possibly at M0 of the project) an initial study will provide state-of-the-art information about the considered technologies described in this appendix. The goal will be to examine the current available techniques, the potential usability of existing approaches, not limited to the one available at the IRIT Laboratory, and will define the precise targets and roadmaps for the research and more specifically the method and the list of tasks to be performed by the Ph.D.s that will start six months later. Indeed the current proposal has been constructed on the basis of a mutual understanding that will need to be explored further to align the precise expectations with the research and human resources capabilities.
 
 The ideal candidate will have performed a Ph.D. on MBSE related field, if possible in an aeronautic application domain, and will have several industrial experiences or previous postdocs since. He will need to be able to address a wide spectrum of research topics (from Ontologies and metamodels to formal methods and data science).
 
@@ -150,7 +128,7 @@ Key research topics include:
 - Semantic integration of distributed models (model/metamodel/ontologies alignments)
 - Application of AI for design abstraction and analysis
 
-The proposed solution will have to consider the key objectives and considerations expressed in Section <<2.1 Context>>, and will have to interoperate with the targeted rule-based Continuous Integration platform as explored by WP2.
+The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will have to interoperate with the targeted rule-based Continuous Integration platform as explored by WP2.
 
 IRIT laboratory experiences in the topics include:
 
@@ -168,11 +146,11 @@ Model validation can be achieved incrementally by the application of several tec
 - Observability and operability: In order to enable validation of a system against some design mode), minimum constraints on the ability to observe the internal state of the system and to influence that state through external interactions need to be derived
 - Correct-by-construction implementation: Certification of complete tool chains that allow deriving a system implementation from a verified model such that the correctness properties are preserved
 - Test case generation: derive a minimum set of test cases from the models that entail a sound approximation of the system behavior
-- Compositional proofs: decompose the requirements into intermediate goals that can be discharged through a combination of formai verification and testing.
+- Compositional proofs: decompose the requirements into intermediate goals that can be discharged through a combination of formal verification and testing.
 - Concolic testing: combining symbolic and concrete execution of the system (partial testing) to automatically derive a proof of validity
 - Runtime verification: Instrument the system implementation (usually done in software, but possibly supported by hardware) to monitor the satisfaction of requirements and signal any deviations (and possibly take corrective actions) 
 
-The proposed solution will have to consider the key objectives and considerations expressed in Section <<2.1 Context>>, and will be at the core of the targeted rule-based Continuous Integration platform. The incremental validation approach will take into account the formalisms as explored by WP1 for the system and by WP3 for the requirements.
+The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will be at the core of the targeted rule-based Continuous Integration platform. The incremental validation approach will take into account the formalisms as explored by WP1 for the system and by WP3 for the requirements.
 
 IRIT laboratory experiences in the topics include:
 
@@ -196,23 +174,23 @@ Key research topics include:
 - Automatic extraction of formal requirements from textual specifications (NLP)
 - Requirement mining from examples (and counterexamples) 
 
-The proposed solution will have to consider the key objectives and considerations expressed in Section <<2.1 Context>>, and will have to interoperate with the targeted rule-based Continuous integration platform as explored by WP2.
+The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will have to interoperate with the targeted rule-based Continuous integration platform as explored by WP2.
 
 IRIT laboratory experiences in the topics include:
 
 - Domain specific languages (DSL) for Requirements <<Florian>>
 - Formal requirements <<Alexandr>>
 
-=== 3.4 Project structure
+=== Project structure
 
 The chair is not organized as a project as such. Nevertheless, to organize and orchestrate the complementary studies, we have identified 5 work packages (WP, or tasks):
 
 *WPO (M0-M60) Project management.* Leader: Jean-Michel Bruel
 
 The objective is to ensure that the project meets its objectives within budget and scheduled timescales. it includes monitoring progress, tracking deliverables, and reporting back to the SOC. This WP ensures the administrative tasks and follows the project progress. The leader is the titular of the Chair. The steering
-committee helps him in this charge, under the supervision of the Strategic Orientation Committee (Section <<3.2 Strategic Orientation Committee (SOC)>>).
+committee helps him in this charge, under the supervision of the Strategic Orientation Committee (Section <<soc>>).
 
-Deliberables:
+Deliverables:
 
 [options="header,footer"]
 |=======================
@@ -268,7 +246,7 @@ _Year 2: including thesis progress, particularly the proposal of a preliminary d
 
 _Nota Bene: Yearly presentation on thesis progress shall occur one month to 15 days before the payment mouth identified in Section 5.2 of the contract._
 
-*WP3 (M12-M48) Requirement formalization* (mostly supported by *Ph.D. 3*). Leader: Sophie Ebsersold
+*WP3 (M12-M48) Requirement formalization* (mostly supported by *Ph.D. 3*). Leader: Sophie Ebersold
 
 The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
 
@@ -288,7 +266,7 @@ _Year 2: including thesis progress, particularly the proposal of a preliminary d
 |Yearly presentation for Year 3 (Oral) + Final THESIS report    | End of the THESIS     |THESIS      |Validation from SOC of both oral presentation & written material (final THESIS report)
 |=======================
 
-*WP4 (M0-M18) Precise roadmap definition* (mostly supported by *postdoc 1*). Leader: Thierry? sergio?
+*WP4 (M0-M18) Precise roadmap definition* (mostly supported by *postdoc 1*). Leader: Sergio
 
 The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
 
@@ -323,29 +301,15 @@ Deliverables:
 
 |=======================
 
-== 4. Stakeholders description
-=== 4.1 Presentation of the titular
-Jean-Michel Bruel is head of the SM@RT team of the IRIT CNRS laboratory. His research areas include the development of software-intensive Cyber-Physical Systems, and methods/model/language integration, with a focus on Requirements and Model-Based Systems Engineering. He has defended his "Habilitation à Diriger des Recherches" in December 2006 and obtained in 2008 a full professor position at the University of Toulouse. He has been head of the Computer Science department of the Technical Institute of Blagnac from 2009 to 2012 and Laboratory Representative for the Toulouse 2 Jean Jaurès University from 2016 to 2020. He is now a member of the Strategic Research Committee of the IRIT CNRS laboratory since 2021.
+== Presentation of the titular
 
-=== 4.2 Academic memebers' expertise
-Here is a non-exhaustive list of recent experiences on the subjects to be addressed by the Chair by involved memebers of IRIT laboratory:
-
-[cols="<,<",options="header,footer"]
-|=======================
-|Theme |Major realizations from IRIT/UT2J   
-| MBSE       |Publications in journals (SoSyM, JSS, ACM Surveys, IEEE Software) and main international conferences (MODELS, ERTS, ICIFM, ICFEM)
-|            |AFIS CT MBSE Coordination (Chair titular) and participation
-|            |Member of the Scientific board of the CNRS Software Engineering Research Group (GDR GPL)
-|            |Organization of conferences and workshops(MODELS’08, STAF’18, FormReq’19-21)
-|Ontology    |Publications in journals (Semantic Web Journal) and main international conferences (ESWC, WI, ICCS, EKAW)
-|            |Comité de pilotage du collège Science de l’ingénierie des Connaissances de l’Association française pour l’Intelligence Artificielle
-|            |Animation of the CNRS Reasoning on Complex and Evolving Data Research Group (GDR IA)
-|Innovation  |Start-up from Ph.D. on formal requirements (http://spilen.fr)
-|=======================
+Jean-Michel Bruel was head of the SM@RT team of the IRIT CNRS laboratory until 2021. 
+His research areas include the development of software-intensive Cyber-Physical Systems, and methods/model/language integration, with a focus on Requirements and Model-Based Systems Engineering. He has defended his _Habilitation à Diriger des Recherches_ in December 2006 and obtained in 2008 a full professor position at the University of Toulouse. He has been head of the Computer Science department of the Technical Institute of Blagnac from 2009 to 2012 and Laboratory Representative for the Toulouse 2 Jean Jaurès University from 2016 to 2020. 
+Since 2021, he has joined the Strategic Research Committee of the IRIT CNRS laboratory and his head of the Computer Science Department of the Blagnac Institute of Technology.
 
 [bibliography]
 == References
-* [[[Feo-Arenis1, 1]]] Feo-Arenis, Sergio, et al. “Ready for testing: ensuring conformanceto industrial standards through formal verification.” FormalAspects of Computing 28.3 (2016): 499-527.
+* [[[Feo-Arenis1, 1]]] Feo-Arenis, Sergio, et al. “Ready for testing: ensuring conformance to industrial standards through formal verification.” FormalAspects of Computing 28.3 (2016): 499-527.
 * [[[Feo-Arenis2, 2]]] Feo-Arenis, Sergio. A Formal Approach to the Development of Industrial Cyber-physical Systems. Diss. University of Freiburg, Freiburg im Breisgau, Germany, 2016.
 
 * [[[Dietsch, 3]]] Dietsch, Daniel, et al. “Disambiguation of industrial standards through formalization and graphical languages.” 2011 IEEE l9th International Requirements Engineering Conference. IEEE, 2011.
@@ -375,16 +339,28 @@ Here is a non-exhaustive list of recent experiences on the subjects to be addres
 
 * [[[Neeraj, 15]]] Neeraj Kumar Singh, Yamine Aït Ameur, Dominique Méry. Formal Ontoiogy Driven Model Refactoring. ICECCS 2018: 136-1 45.
 
-== Annex 1
+[appendix]
+== Main acronyms
 
-*LISTE DES REPRÉSENTANTS DU COMITÉ*
+DDMS:: Digital Design Manufacturing Services
+
+IRT:: Institut de Recherche Technologique
+
+IRIT:: Institut de Recherche en Informatique de Toulouse
+
+MBSE:: Model-Based Systems Engineering
+
+SOC:: Strategic Orientation Committee
+
+[[annex-soc]]
+[appendix]
+== Committee members
 
 //(also called SOC -Strategic Orientation Committee - in Annexes 1 & 2)
 
 This list is not exhaustive and may evolve according to the research needs.
 
 *IRIT* members
-[options="footer"]
 |=======================
 |Pr. Jean-Michel BRUEL  |Titular of the chair
 |Dr. Sophie EBERSOLD    |Associate professor IRIT/UT2J, HdR
@@ -393,7 +369,7 @@ This list is not exhaustive and may evolve according to the research needs.
 |Dr. Marc PANTEL        |Associate professor IRIT/INPT
       
                          Member of the ACADIE team, MBSE expert
-|Dr. Nathalie HERNANDZ  |Associate professor IRIT/UT2J
+|Dr. Nathalie HERNANDEZ  |Associate professor IRIT/UT2J
       
                          Member of the MELODI team, Ontology expert    
 |Pr. Jean-Marc PIERSON 
@@ -403,7 +379,6 @@ This list is not exhaustive and may evolve according to the research needs.
 
 *Airbus* members
 
-[options="footer"]
 |=======================
 |Dr. Sergio FEO-ARENIS  |Technical responsible of the chair on Airbus side
                          Research Scientist in the Virtual product Engineering Domain
