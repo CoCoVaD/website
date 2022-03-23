@@ -14,7 +14,7 @@ endif::[]
 image:{baseURL}/actions/workflows/main.yml/badge.svg[Deployed] image:https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg[License: MPL-2.0, link="https://opensource.org/licenses/MPL-2.0"]
 //------------------------------------ Badges --------
 
-CAUTION: Site under construction!! 
+CAUTION: Site under construction!! Last update 2022-03-23 by JMB.
 
 This is an Antora-based documentation site.
 
