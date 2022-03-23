@@ -88,8 +88,8 @@
     <li><a href="master.html">Collaborative &amp; Continuous Value Delivery</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/CoCoVaD/website/edit/master/docs/modules/ROOT/pages/master.adoc">Edit this Page</a></div>
-  </div>
+  <div class="edit-this-page"><a href="file:///Users/jmb/localdev/research/CoCoVaD/website/docs/modules/ROOT/pages/master.adoc">Edit this Page</a></div>
+</div>
   <div class="content">
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
@@ -115,10 +115,13 @@ Site under construction!!
 </tr>
 </table>
 </div>
+<div class="paragraph">
+<p>This document describes the research project and objectives of the chair.</p>
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_overview"><a class="anchor" href="#_overview"></a>Overview</h2>
+<h2 id="_overview"><a class="anchor" href="#_overview"></a>1. Overview</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Despite the success of Model-Based Systems Engineering adoption, its application at scale and in a continuous approach to ensure the delivery of added value for its adopters is far from straightforward.
@@ -129,11 +132,759 @@ It is the purpose of this Chair to study and make effective such complementarity
 </div>
 </div>
 <div class="sect1">
-<h2 id="_details"><a class="anchor" href="#_details"></a>Details</h2>
+<h2 id="context"><a class="anchor" href="#context"></a>2. Context and objectives of the chair</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_context"><a class="anchor" href="#_context"></a>2.1. Context</h3>
+<div class="paragraph">
+<p>The project will address four key challenges of the current use of models in systems engineering, and that we
+summarize by the following terms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Vertical Integration</strong> (different levels of abstraction): how to deal with models at multiple levels of abstraction during the development process? How to use semantics to integrate along with different levels of abstraction/details: the definition of systems and subsystems, the simulation models characterizing the behaviors of these systems and subsystems, the propagation of requirements and constraints downstream?</p>
+</li>
+<li>
+<p><strong>Horizontal Integration</strong> (same levels of abstraction): how do deal with models from multiple domains, sometimes from different partners, using sometimes different terms for similar concepts? How to use semantics for complex product integration: the different aspects of a system of interest, it’s enabling systems and it’s relevant operations eco-systems?</p>
+</li>
+<li>
+<p><strong>Lifecycle Integration</strong> (different lifecycle phases): how to keep track of the models’ evolutions? How to use semantics to integrate along the different stages of developments of a system : the decompositions in sub-systems envisaged and traded, the traceability of the decision path leading to from initial specification to final implementation and simulation?</p>
+</li>
+<li>
+<p><strong>Continuous Integration</strong>: how to continuously apply V&amp;V without facing combinatorial complexity? How to use semantics to run rule-based audit of the models, and add comments in initial model where violations or suspicious configurations are detected (e.g., MOF template not applied, lexical dictionary
+not respected, interface present in one model and not in a counterpart one, &#8230;&#8203;).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Here are some key considerations for the whole project:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The scientific investigations will have practical and realistic usage as a primary target and will keep coverage demonstration goals in mind. They will need to benefit from industrial case studies provided by Airbus, especially for the scalability studies (realistic, supported by concerned engineers).</p>
+</li>
+<li>
+<p>The Extended Enterprise dimension and target will be a primary concern for all productions, and as such, might involve the collaboration of DDMS identified partners.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Here are the key objectives of the Chair classified by priority:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Continuously support and automate V&amp;V activities (Model checking, Theorem proving, or test cases generation)</p>
+</li>
+<li>
+<p>Support merge of heterogeneous models (model alignments, ontologies) or incomplete models (AI)</p>
+</li>
+<li>
+<p>Support decisions traceability (support for efficient machine learning) and identify common patterns for COTS-like library usage</p>
+</li>
+<li>
+<p>Support both a posteriori verification (e.g., interface consistency) and a priori ones (e.g., no bidirectional flows)</p>
+</li>
+<li>
+<p>Support genericity and composition of continuous integration artifacts</p>
+</li>
+<li>
+<p>Support for justification/certification activities (e.g., demonstrate coverage in terms of exhaustivity of the properties to satisfy/certify)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_state_of_the_art"><a class="anchor" href="#_state_of_the_art"></a>2.2. State of the art</h3>
+<div class="paragraph">
+<p>This chair project aims at addressing all these dimensions in a complementary effort. it is one effort in a constellation of MBSE-related efforts conducted by Airbus (IRT projects, International and National Chairs, Collaborations).</p>
+</div>
+<div class="paragraph">
+<p>In the context of the present chair project, three main key concerns have been identified as critical and will be addressed by three dedicated Ph.D. included in this Chair. A postdoctoral engineer included in this Chair will initiate the research and help define the precise perimeters and targets of each Ph.D.</p>
+</div>
+<div class="paragraph">
+<p><strong>Gaps overview</strong> (post-doc 1): What s the current status of the state-of-the-art in the key enabling technologies?
+What are the limitations that should be tackled first?</p>
+</div>
+<div class="paragraph">
+<p><strong>Gap</strong> 1 (Ph.D. 1): System formalization</p>
+</div>
+<div class="paragraph">
+<p><strong>Gap</strong> 2 (Ph.D. 2): Model validation</p>
+</div>
+<div class="paragraph">
+<p><strong>Gap</strong> 3 (Ph.D. 3): Requirement formalization</p>
+</div>
+<div class="paragraph">
+<p>The following section details these subjects.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_scientific_program"><a class="anchor" href="#_scientific_program"></a>3. Scientific program</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_precise_actions"><a class="anchor" href="#_precise_actions"></a>3.1. Precise actions</h3>
+<div class="paragraph">
+<p>The increasing complexity of systems drives an increase in the effort required for testing. Formal verification promises to relieve that effort by providing evidence of correctness<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> without requiring the explicit execution of tests, but by leveraging computational logic to symbolically deduce whether a system design is correct, producing either a structured proof of correctness or a counterexample (a concrete set of system states that
+violate the specification).</p>
+</div>
+<div class="paragraph">
+<p>Providing a formal specification, however, is also a difficult task. Requirements are usually expressed informally as text and omit implicit knowledge (sometimes purposefully). Formalizing those requirements thus requires additional effort and knowledge in the particular specification language, which in general cannot be
+expected from the engineers who are in charge of writing requirements. Additionally, proving general correctness is still challenging for state-of-the-art formal verification techniques.</p>
+</div>
+<div class="paragraph">
+<p>A proposed alternative to obtaining formal specifications is to use certification requirements instead of general system requirements <a href="#Feo-Arenis1">[1]</a> <a href="#Feo-Arenis2">[2]</a>. Some certification requirements are usually expressed as test specifications, which have several characteristics that make them more amenable for formalization:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The operational scenarios for certification tests are well delimited in scope by specifying the environmental conditions in which tests are to be conducted.</p>
+</li>
+<li>
+<p>The sequences of inputs, including alternatives and timing are clearly specified.</p>
+</li>
+<li>
+<p>The expected outputs (or behavior) of the system under certification are also clearly specified.</p>
+</li>
+<li>
+<p>The open nature of certification requirements makes them more appropriate to be used in research.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Additionally, having a limited certification scope allows concentrating the verification efforts to relevant parts of the system, thus improving the tractability of the verification problem.</p>
+</div>
+<div class="paragraph">
+<p>A proof obtained in this manner then increases the confidence that the system will pass certification tests. This is narrower than the required confidence that the system in general fulfills its requirements, but improves the overall testing effort by covering significant portions of the state space of the system while also providing formal descriptions of the parts of the system’s behavior that still require testing.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="soc"><a class="anchor" href="#soc"></a>3.2. Strategic Orientation Committee (SOC)</h3>
+<div class="paragraph">
+<p>The decisions will be submitted to Strategic Orientation Committee.
+The member of the committee are detailed in <a href="#annex-soc">Appendix B</a> of the contract.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_detailed_ph_d_and_postdoc_subjects"><a class="anchor" href="#_detailed_ph_d_and_postdoc_subjects"></a>3.3. Detailed Ph.D. and PostDoc subjects</h3>
+<div class="paragraph">
+<p><em>General principles</em></p>
+</div>
+<div class="paragraph">
+<p>An initial postdoc study will start at M0 of the project and will define the precise roadmap for the research and more specifically the method and the list of tasks to be performed by the Ph.D.s that will start six months later. For now three Ph.D.s are foreseen, but according to the conclusions of the initial postdoc study (urgent results needed, technical issues to be solved) this scheme could be replaced by two Ph.D.s and an additional postdoc (postdoc 2). The budget allows such flexibility. Deliverables and gantt will be updated accordingly after acceptance by the SOC.</p>
+</div>
+<div class="paragraph">
+<p><em>Postdoc 1 - Precise roadmap definition</em></p>
+</div>
+<div class="paragraph">
+<p>Starting as soon as possible (possibly at M0 of the project) an initial study will provide state-of-the-art information about the considered technologies described in this appendix. The goal will be to examine the current available techniques, the potential usability of existing approaches, not limited to the one available at the IRIT Laboratory, and will define the precise targets and roadmaps for the research and more specifically the method and the list of tasks to be performed by the Ph.D.s that will start six months later. Indeed the current proposal has been constructed on the basis of a mutual understanding that will need to be explored further to align the precise expectations with the research and human resources capabilities.</p>
+</div>
+<div class="paragraph">
+<p>The ideal candidate will have performed a Ph.D. on MBSE related field, if possible in an aeronautic application domain, and will have several industrial experiences or previous postdocs since. He will need to be able to address a wide spectrum of research topics (from Ontologies and metamodels to formal methods and data science).</p>
+</div>
+<div class="paragraph">
+<p>Key research topics: Modelling languages for discrete, continuous and hybrid systems, sound abstractions, proof methodologies, semantic integration of distributed models, application of AI for design abstraction and analysis.</p>
+</div>
+<div class="paragraph">
+<p><em>Ph.D. 1 - System Formalization</em></p>
+</div>
+<div class="paragraph">
+<p>Describing the behavior of the system requires finding the delicate balance between modelling detail and computational complexity. A model that is too abstract may lead to verification results that are unsound (a specification violation is signed that cannot occur in the actual system) or incomplete (a property that is actually fulfilled by the system cannot be proved correct). Conversely, a too detailed model may require a too long time or too large computational resources. Here, finding adequate modelling languages and corresponding methodologies to capture the system’s behaviors is key to achieving actionable results at an acceptable cost.</p>
+</div>
+<div class="paragraph">
+<p>This difficulty is exacerbated in the Airbus context by the highly distributed nature of the design and development processes.
+Here, it is important to clarify that an abstract, integrated model would not constitute an additional source of truth. During the abstraction process, links are to be preserved to the original information sources, so that the relationship between the integrated mode) and the source models is kept explicit. In this manner, the integrated model would provide a skeleton for system analysis that can be used to navigate.</p>
+</div>
+<div class="paragraph">
+<p>Key research topics include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Modelling languages for discrete, continuous, and hybrid systems</p>
+</li>
+<li>
+<p>Sound abstractions</p>
+</li>
+<li>
+<p>Proof methodologies</p>
+</li>
+<li>
+<p>Semantic integration of distributed models (model/metamodel/ontologies alignments)</p>
+</li>
+<li>
+<p>Application of AI for design abstraction and analysis</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The proposed solution will have to consider the key objectives and considerations expressed in Section <a href="#context">Section 2</a>, and will have to interoperate with the targeted rule-based Continuous Integration platform as explored by WP2.</p>
+</div>
+<div class="paragraph">
+<p>IRIT laboratory experiences in the topics include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Complex ontologies matching and alignments <a href="#Élodie1">[4]</a><a href="#Élodie2">[5]</a><a href="#Neeraj">[15]</a></p>
+</li>
+<li>
+<p>Domain specific languages (DSL) developments (for Requirements <a href="#Florian">[13]</a>, Component-based systems <a href="#Grégory">[10]</a>, States &amp; Modes)</p>
+</li>
+<li>
+<p>Rule-based systems formalization <a href="#Mounira">[12]</a></p>
+</li>
+<li>
+<p>Model alignment <a href="#Saloua">[14]</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><em>Ph.D. 2 - Model Validation</em></p>
+</div>
+<div class="paragraph">
+<p>Having proven properties on a system model requires also showing that the model s an accurate image of the system under consideration. Only then can any claims of correctness (and thus, any confidence in the real system) be substantiated. This usually requires two complementary validation activities. First, showing that the model is a valid abstraction of the system, i.e., that all relevant behaviors of the system are captured by the model. And second, showing that any system behaviors abstracted in the model do not affect the satisfaction of the verified properties.</p>
+</div>
+<div class="paragraph">
+<p>Model validation can be achieved incrementally by the application of several techniques that are current research topics:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Observability and operability: In order to enable validation of a system against some design mode), minimum constraints on the ability to observe the internal state of the system and to influence that state through external interactions need to be derived</p>
+</li>
+<li>
+<p>Correct-by-construction implementation: Certification of complete tool chains that allow deriving a system implementation from a verified model such that the correctness properties are preserved</p>
+</li>
+<li>
+<p>Test case generation: derive a minimum set of test cases from the models that entail a sound approximation of the system behavior</p>
+</li>
+<li>
+<p>Compositional proofs: decompose the requirements into intermediate goals that can be discharged through a combination of formal verification and testing.</p>
+</li>
+<li>
+<p>Concolic testing: combining symbolic and concrete execution of the system (partial testing) to automatically derive a proof of validity</p>
+</li>
+<li>
+<p>Runtime verification: Instrument the system implementation (usually done in software, but possibly supported by hardware) to monitor the satisfaction of requirements and signal any deviations (and possibly take corrective actions)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The proposed solution will have to consider the key objectives and considerations expressed in Section <a href="#context">Section 2</a>, and will be at the core of the targeted rule-based Continuous Integration platform. The incremental validation approach will take into account the formalisms as explored by WP1 for the system and by WP3 for the requirements.</p>
+</div>
+<div class="paragraph">
+<p>IRIT laboratory experiences in the topics include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Ontology Early V&amp;V <a href="#Ronan1">[9]</a></p>
+</li>
+<li>
+<p>MBSE and Simulations <a href="#Renan2">[11]</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><em>Ph.D. 3 - Requirement Formalization</em></p>
+</div>
+<div class="paragraph">
+<p>One of the main challenges to performing formal verification is the system specification. That is, providing a mathematical description of the required system composition (for example, redundancy, dimensions, physical constraints) and of the required system behavior. For instance, a formal description of the set of states of a system together with a function that classifies those states between desired and undesired states. Orthogonal to this classification, some sources distinguish between non-functional and functional requirements.</p>
+</div>
+<div class="paragraph">
+<p>Depending on the nature of an Airbus’s industrial case studies determine the formalism that optimally captures that requirement. In some occasions, the focus lies on achieving mutual understanding between interested parties (e.g., a certification authority and a system designer). Here, graphical languages with formal semantics could pose a suitable solution <a href="#Dietsch">[3]</a>.</p>
+</div>
+<div class="paragraph">
+<p>Additionally, it is necessary to identify the aspects necessary to formally capture a requirement and which increase the complexity of both deriving a formalization, and of analyzing any system against that requirement. For instance, requirements may range from simple integer constraints (e.g. &#8220;A minimum of two cross-strapped redundant units&#8221;) to real-time and probabilistic specifications (e.g. &#8220;The response shall be returned within 100ms in 95% of the cases&#8221;) to completely intermixed statements of correctness (e.g. &#8220;The tank valve should switch over to the auxiliary tank within 50 ms if the discharge rate exceeds 100 mm<sup>3</sup>/sec, the discharge rate should not exceed 150 mm<sup>3</sup>/sec for 99% of any 10 sec period&#8221;).</p>
+</div>
+<div class="paragraph">
+<p>Several approaches have been proposed to tackle the challenge of specification.</p>
+</div>
+<div class="paragraph">
+<p>Key research topics include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Formal languages for the specification of behavioral properties: discrete, continuous, timed and hybrid temporal logics (and associated verification tools for temporal logics)</p>
+</li>
+<li>
+<p>Formal semantics for system design specifications (formal fragments of UML / SysML etc)</p>
+</li>
+<li>
+<p>Automatic extraction of formal requirements from textual specifications (NLP)</p>
+</li>
+<li>
+<p>Requirement mining from examples (and counterexamples)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The proposed solution will have to consider the key objectives and considerations expressed in Section <a href="#context">Section 2</a>, and will have to interoperate with the targeted rule-based Continuous integration platform as explored by WP2.</p>
+</div>
+<div class="paragraph">
+<p>IRIT laboratory experiences in the topics include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Domain specific languages (DSL) for Requirements <a href="#Florian">[13]</a></p>
+</li>
+<li>
+<p>Formal requirements <a href="#Alexandr">[8]</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_project_structure"><a class="anchor" href="#_project_structure"></a>3.4. Project structure</h3>
+<div class="paragraph">
+<p>The chair is not organized as a project as such. Nevertheless, to organize and orchestrate the complementary studies, we have identified 5 work packages (WP, or tasks):</p>
+</div>
+<div class="paragraph">
+<p><strong>WPO (M0-M60) Project management.</strong> Leader: Jean-Michel Bruel</p>
+</div>
+<div class="paragraph">
+<p>The objective is to ensure that the project meets its objectives within budget and scheduled timescales. it includes monitoring progress, tracking deliverables, and reporting back to the SOC. This WP ensures the administrative tasks and follows the project progress. The leader is the titular of the Chair. The steering
+committee helps him in this charge, under the supervision of the Strategic Orientation Committee (Section <a href="#soc">Section 3.2</a>).</p>
+</div>
+<div class="paragraph">
+<p>Deliverables:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Deliverable</th>
+<th class="tableblock halign-left valign-top">Delivery frequency</th>
+<th class="tableblock halign-left valign-top">Scope of application</th>
+<th class="tableblock halign-left valign-top">Acceptance criteria</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Minutes of Follow-Up meeting</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Every month</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">POST-DOCTORATE(S) and THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Full &amp; understandable document, delivered end of each month</p></td>
+</tr>
+</tfoot>
+</table>
+<div class="paragraph">
+<p><strong>WP1 (M12-M48) System formalization</strong> (mostly supported by <strong>Ph.D. 1</strong>). Leader: Nathalie Hernandez</p>
+</div>
+<div class="paragraph">
+<p>The precise method and list of tasks to be performed will be refined during and by Postdoc 1.</p>
+</div>
+<div class="paragraph">
+<p>Deliverables:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Deliverable</th>
+<th class="tableblock halign-left valign-top">Delivery frequency</th>
+<th class="tableblock halign-left valign-top">Scope of application</th>
+<th class="tableblock halign-left valign-top">Acceptance criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yearly progress presentation (Oral + written material) for Years 1 &amp; 2</p>
+<p class="tableblock"><em>Year 1: including detailed thesis specifications, state-of-the-art and conceptual model about systems formalization</em></p>
+<p class="tableblock"><em>Year 2: including thesis progress, particularly the proposal of a preliminary definition of a method to model requirements for early validation and verification</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Every year</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC of both oral presentation &amp; written material</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yearly presentation for Year 3 (Oral) + Final THESIS report</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">End of the THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from JURY<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> SOC of both oral presentation &amp; written material (final THESIS report)</p></td>
+</tr>
+</tfoot>
+</table>
+<div class="paragraph">
+<p><em>Nota Bene: Yearly presentation on thesis progress shall occur one month to 15 days before the payment mouth identified in Section 5.2 of the contract.</em></p>
+</div>
+<div class="paragraph">
+<p><strong>WP2 (M6-M42) Model validation</strong> (mostly supported by <strong>Ph.D. 2</strong>). Leader: Marc Pantel</p>
+</div>
+<div class="paragraph">
+<p>The precise method and list of tasks to be performed will be refined during and by Postdoc 1.</p>
+</div>
+<div class="paragraph">
+<p>Deliverables:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Deliverable</th>
+<th class="tableblock halign-left valign-top">Delivery frequency</th>
+<th class="tableblock halign-left valign-top">Scope of application</th>
+<th class="tableblock halign-left valign-top">Acceptance criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yearly progress presentation (Oral + written material) for Years 1 &amp; 2</p>
+<p class="tableblock"><em>Year 1: including detailed thesis specifications, state-of-the-art and conceptual model about systems formalization</em></p>
+<p class="tableblock"><em>Year 2: including thesis progress, particularly the proposal of a preliminary definition of a method to model requirements for early validation and verification</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Every year</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC of both oral presentation &amp; written material</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yearly presentation for Year 3 (Oral) + Final THESIS report</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">End of the THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC of both oral presentation &amp; written material (final THESIS report)</p></td>
+</tr>
+</tfoot>
+</table>
+<div class="paragraph">
+<p><em>Nota Bene: Yearly presentation on thesis progress shall occur one month to 15 days before the payment mouth identified in Section 5.2 of the contract.</em></p>
+</div>
+<div class="paragraph">
+<p><strong>WP3 (M12-M48) Requirement formalization</strong> (mostly supported by <strong>Ph.D. 3</strong>). Leader: Sophie Ebersold</p>
+</div>
+<div class="paragraph">
+<p>The precise method and list of tasks to be performed will be refined during and by Postdoc 1.</p>
+</div>
+<div class="paragraph">
+<p>Deliverables:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Deliverable</th>
+<th class="tableblock halign-left valign-top">Delivery frequency</th>
+<th class="tableblock halign-left valign-top">Scope of application</th>
+<th class="tableblock halign-left valign-top">Acceptance criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yearly progress presentation (Oral + written material) for Years 1 &amp; 2</p>
+<p class="tableblock"><em>Year 1: including detailed thesis specifications, state-of-the-art and conceptual model about systems formalization</em></p>
+<p class="tableblock"><em>Year 2: including thesis progress, particularly the proposal of a preliminary definition of a method to model requirements for early validation and verification</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Every year</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC of both oral presentation &amp; written material</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yearly presentation for Year 3 (Oral) + Final THESIS report</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">End of the THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC of both oral presentation &amp; written material (final THESIS report)</p></td>
+</tr>
+</tfoot>
+</table>
+<div class="paragraph">
+<p><strong>WP4 (M0-M18) Precise roadmap definition</strong> (mostly supported by <strong>postdoc 1</strong>). Leader: Sergio</p>
+</div>
+<div class="paragraph">
+<p>The precise method and list of tasks to be performed will be refined during and by Postdoc 1.</p>
+</div>
+<div class="paragraph">
+<p>The method and the list of tasks to be performed by the three Ph.Ds. will be defined collectively by IRIT/Airbus.</p>
+</div>
+<div class="paragraph">
+<p>Deliverables:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Deliverable</th>
+<th class="tableblock halign-left valign-top">Delivery frequency</th>
+<th class="tableblock halign-left valign-top">Scope of application</th>
+<th class="tableblock halign-left valign-top">Acceptance criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Semestrial progress presentation (Oral + written material)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Every semester</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">POST-DOCTORATE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC of both oral presentation &amp; written material</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Final Oral + POSTDOCTORAL report</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">End of the POST-DOCTORATE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">POST-DOCTORATE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC of both oral presentation &amp; written material (final POST-DOCTORATE report)</p></td>
+</tr>
+</tfoot>
+</table>
+<div class="paragraph">
+<p><strong>WP5 (M0-M60) Diffusion and valorization.</strong> Leader Jean-Michel Bruel. Dissemination actions will be done for each Ph.D. thesis, by publications in high-level International journals and conferences and in AFIS events in France.</p>
+</div>
+<div class="paragraph">
+<p>Wherever possible, results will be communicated for the creation of external awareness and knowledge building within the targeted systems engineers and scientific communities. The communication should guide and prepare potential users for the benefits and improvements that will be made possible by the expected
+outcomes of the chair. In order for the dissemination to be effective, several means will be used covering academic and industrial domains: publications in journals and conferences, participation in national and international events, workshops and press releases. Use Cases will be performed that specifically highlight the benefits for the complex system sectors and for the broader MBSE community, however the dissemination actions will also target a much wider international audience.</p>
+</div>
+<div class="paragraph">
+<p>Deliverables:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Deliverable</th>
+<th class="tableblock halign-left valign-top">Delivery frequency</th>
+<th class="tableblock halign-left valign-top">Scope of application</th>
+<th class="tableblock halign-left valign-top">Acceptance criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(At least one) Scientific publication(s)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">During or at the end of the THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">THESIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from the reviewing committee(s) of the publication(s)</p></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Final synthesis of the CHAIR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Before the end of the CONTRACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CONTRACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validation from SOC</p></td>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_presentation_of_the_titular"><a class="anchor" href="#_presentation_of_the_titular"></a>4. Presentation of the titular</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Coming soon&#8230;&#8203;</p>
+<p>Jean-Michel Bruel was head of the SM@RT team of the IRIT CNRS laboratory until 2021.
+His research areas include the development of software-intensive Cyber-Physical Systems, and methods/model/language integration, with a focus on Requirements and Model-Based Systems Engineering. He has defended his <em>Habilitation à Diriger des Recherches</em> in December 2006 and obtained in 2008 a full professor position at the University of Toulouse. He has been head of the Computer Science department of the Technical Institute of Blagnac from 2009 to 2012 and Laboratory Representative for the Toulouse 2 Jean Jaurès University from 2016 to 2020.
+Since 2021, he has joined the Strategic Research Committee of the IRIT CNRS laboratory and his head of the Computer Science Department of the Blagnac Institute of Technology.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_references"><a class="anchor" href="#_references"></a>References</h2>
+<div class="sectionbody">
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="Feo-Arenis1"></a>[1] Feo-Arenis, Sergio, et al. “Ready for testing: ensuring conformance to industrial standards through formal verification.” FormalAspects of Computing 28.3 (2016): 499-527.</p>
+</li>
+<li>
+<p><a id="Feo-Arenis2"></a>[2] Feo-Arenis, Sergio. A Formal Approach to the Development of Industrial Cyber-physical Systems. Diss. University of Freiburg, Freiburg im Breisgau, Germany, 2016.</p>
+</li>
+<li>
+<p><a id="Dietsch"></a>[3] Dietsch, Daniel, et al. “Disambiguation of industrial standards through formalization and graphical languages.” 2011 IEEE l9th International Requirements Engineering Conference. IEEE, 2011.</p>
+</li>
+<li>
+<p><a id="Élodie1"></a>[4] Élodie Thiéblin, Ollivier Haemmerlé, <strong>Nathalie Hernandez</strong>, Cassia Trojahn dos Santos. Survey on complex ontology matching. Semantic Web Journal, 11(4): p. 689-727, 2020.</p>
+</li>
+<li>
+<p><a id="Élodie2"></a>[5] Élodie Thiéblin, <strong>Nathalie Hernandez</strong>, Catherine Roussey, Cassia Trojahn. Cross-querying LOD data sets using complex alignments: an experiment using Agronomic Taxon, Agrovoc, DBpedia and TAXREF-LD. International Journal of Metadata, Semantics and Ontologies (IJMSO), Vol. 13, No. 2, p. 104-119, 2018.</p>
+</li>
+<li>
+<p><a id="Dupont"></a>[6] G Dupont, Y Aït-Ameur, <strong>M Pantel</strong>, NK Singh. An Event-B Based Generic Framework for Hybrid Systems Formal Modelling. International Conference on Integrated Formal Methods, 82-1 02.</p>
+</li>
+<li>
+<p><a id="Jean-Michel"></a>[7] <strong>Jean-Michel Bruel</strong>, Benoît Combemale, Esther Guerra, Jean-Marc Jézéquel, Jôrg Kienzle, Juan de Lara, Gunter Mussbacher, Eugene Syriani, Hans Vangheluwe. Comparing and classifying model transformation reuse approaches across metamodels. Software &amp; Systems Modeling 19(2): 441-465 (2020).</p>
+</li>
+<li>
+<p><a id="Alexandr"></a>[8] Alexandr Naumchev, Bertrand Meyer, Manuel Mazzara, Fiorian Galinier, <strong>Jean-Michel Bruel</strong>, <strong>Sophie Ebersold</strong>. AutoReq: Expressing and verifying requirements for control systems. J. Comput. Lang. 51: 131-142 (2019).</p>
+</li>
+<li>
+<p><a id="Ronan1"></a>[9] Ronan Baduel, lulian Ober, <strong>Jean-Michel Bruel</strong>. Modeling and verification method for an early evaluation of Systems of Systems interactions. 35th Annual ACM Symposium on Applied Computing (SAC 2020), Mar 2020, Brno, Czech Republic. pp.1798-1805.</p>
+</li>
+<li>
+<p><a id="Grégory"></a>[10] Grégory Alary, <strong>Nathalie Hernandez</strong>, Jean-Paul Arcangeli, Sylvie Trouilhet, <strong>Jean-Michel Bruel</strong>. Using Comp-O to Build and Describe Component-Based Services. Demos and lndustry Tracks: From Novel Ideas to Industrial Practice (ISWC-Posters 2020) co-located with 19th International Semantic Web Conference, Nov
+2020, virtual conference, Greece. pp.152-l57.</p>
+</li>
+<li>
+<p><a id="Renan2"></a>[11] Renan Leroux-Beaudout, <strong>Marc Pantel</strong>, ileana Ober, <strong>Jean-Michel Bruel</strong>. Model-Based Systems Engineering for Systems Simulation. Symposium On Leveraging Applications of Formal Methods, Verification and Validation (ISoLA 2018), Oct 2018, Limassol, Cyprus. pp.429-448.</p>
+</li>
+<li>
+<p><a id="Mounira"></a>[12] Mounira Kezadri, <strong>Marc Pantel</strong>, XavierThirioux, Benoit Combemale. Correct-by-construction model driven engineering composition operators. Formal Aspects of Computing, Springer Verlag, 2016, 28 (3).</p>
+</li>
+<li>
+<p><a id="Florian"></a>[13] Florian Galinier, <strong>Sophie Ebersold</strong>, <strong>Jean-Michel Bruel</strong>. Requirements Specific Modeling Language : un langage formel d’expression d’exigences. Conférence en IngénieriE du Logiciel, Jun 2018, Grenoble, France.</p>
+</li>
+<li>
+<p><a id="Saloua"></a>[14] Saloua Bennani, lliass Ait El Kouch, Mahmoud El Hamlaoui, <strong>Sophie Ebersold</strong>, Bernard Coulette et al. A Formalization of Group Decision Making in Multi-Viewpoints Design. Communications in Computer and Information Science, Springer Verlag, 2020, 13 (1), pp.58.</p>
+</li>
+<li>
+<p><a id="Neeraj"></a>[15] Neeraj Kumar Singh, Yamine Aït Ameur, Dominique Méry. Formal Ontoiogy Driven Model Refactoring. ICECCS 2018: 136-1 45.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_main_acronyms"><a class="anchor" href="#_main_acronyms"></a>Appendix A: Main acronyms</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">DDMS</dt>
+<dd>
+<p>Digital Design Manufacturing Services</p>
+</dd>
+<dt class="hdlist1">IRT</dt>
+<dd>
+<p>Institut de Recherche Technologique</p>
+</dd>
+<dt class="hdlist1">IRIT</dt>
+<dd>
+<p>Institut de Recherche en Informatique de Toulouse</p>
+</dd>
+<dt class="hdlist1">MBSE</dt>
+<dd>
+<p>Model-Based Systems Engineering</p>
+</dd>
+<dt class="hdlist1">SOC</dt>
+<dd>
+<p>Strategic Orientation Committee</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="annex-soc"><a class="anchor" href="#annex-soc"></a>Appendix B: Committee members</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This list is not exhaustive and may evolve according to the research needs.</p>
+</div>
+<div class="paragraph">
+<p><strong>IRIT</strong> members</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pr. Jean-Michel BRUEL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Titular of the chair</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dr. Sophie EBERSOLD</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Associate professor IRIT/UT2J, HdR</p>
+<p class="tableblock">                         Member of the SM@RT team, Alignment expert</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dr. Marc PANTEL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Associate professor IRIT/INPT</p>
+<p class="tableblock">                         Member of the ACADIE team, MBSE expert</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dr. Nathalie HERNANDEZ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Associate professor IRIT/UT2J</p>
+<p class="tableblock">                         Member of the MELODI team, Ontology expert</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pr. Jean-Marc PIERSON
+(or his representative</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Professor IRIT/UT3
+                         Head of IRIT</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>Airbus</strong> members</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dr. Sergio FEO-ARENIS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technical responsible of the chair on Airbus side
+                         Research Scientist in the Virtual product Engineering Domain</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M. Thierry CHEVALIER</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DDMS, Head of Modeling &amp; Simulation research</p>
+<p class="tableblock">                         Owener of the R&amp;T ``Digital Design Manufacturing &amp; Services Technology" roadmap (1DDM)</p>
+<p class="tableblock">                         Member of the SM@RT team, Alignment expert</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M. Benoit VIGNEAU</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DDMS, Head Of MBSE activities</p>
+<p class="tableblock">                         Owner of the R&amp;t ``Model-based Enginerring" roadmap (2MSE)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M. Carsten STROBEL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">R&amp;T senior Research Project Leader</p>
+<p class="tableblock">                         Co-Owner of the R&amp;T ``Model-based Engineering" roadmap (2MSE)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M. Alain KERBRAT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E2E Systems MBSE specialist</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. Correctness: Fulfillment of all stated requirements. In some cases also a guarantee of equivalence between state spaces.
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. JURY: experts
 </div>
 </div>
 </article>
