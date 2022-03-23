@@ -128,7 +128,7 @@ Key research topics include:
 - Semantic integration of distributed models (model/metamodel/ontologies alignments)
 - Application of AI for design abstraction and analysis
 
-The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will have to interoperate with the targeted rule-based Continuous Integration platform as explored by WP2.
+The proposed solution will have to consider the key objectives and considerations expressed in <<context>>, and will have to interoperate with the targeted rule-based Continuous Integration platform as explored by WP2.
 
 IRIT laboratory experiences in the topics include:
 
@@ -150,7 +150,7 @@ Model validation can be achieved incrementally by the application of several tec
 - Concolic testing: combining symbolic and concrete execution of the system (partial testing) to automatically derive a proof of validity
 - Runtime verification: Instrument the system implementation (usually done in software, but possibly supported by hardware) to monitor the satisfaction of requirements and signal any deviations (and possibly take corrective actions) 
 
-The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will be at the core of the targeted rule-based Continuous Integration platform. The incremental validation approach will take into account the formalisms as explored by WP1 for the system and by WP3 for the requirements.
+The proposed solution will have to consider the key objectives and considerations expressed in <<context>>, and will be at the core of the targeted rule-based Continuous Integration platform. The incremental validation approach will take into account the formalisms as explored by WP1 for the system and by WP3 for the requirements.
 
 IRIT laboratory experiences in the topics include:
 
@@ -174,7 +174,7 @@ Key research topics include:
 - Automatic extraction of formal requirements from textual specifications (NLP)
 - Requirement mining from examples (and counterexamples) 
 
-The proposed solution will have to consider the key objectives and considerations expressed in Section <<context>>, and will have to interoperate with the targeted rule-based Continuous integration platform as explored by WP2.
+The proposed solution will have to consider the key objectives and considerations expressed in <<context>>, and will have to interoperate with the targeted rule-based Continuous integration platform as explored by WP2.
 
 IRIT laboratory experiences in the topics include:
 
@@ -188,11 +188,11 @@ The chair is not organized as a project as such. Nevertheless, to organize and o
 *WPO (M0-M60) Project management.* Leader: Jean-Michel Bruel
 
 The objective is to ensure that the project meets its objectives within budget and scheduled timescales. it includes monitoring progress, tracking deliverables, and reporting back to the SOC. This WP ensures the administrative tasks and follows the project progress. The leader is the titular of the Chair. The steering
-committee helps him in this charge, under the supervision of the Strategic Orientation Committee (Section <<soc>>).
+committee helps him in this charge, under the supervision of the Strategic Orientation Committee (cf. <<soc>>).
 
 Deliverables:
 
-[options="header,footer"]
+[options="header"]
 |=======================
 |Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
 
@@ -206,7 +206,7 @@ The precise method and list of tasks to be performed will be refined during and 
 
 Deliverables:
 
-[options="header,footer"]
+[options="header"]
 |=======================
 |Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
 |Yearly progress presentation (Oral + written material) for Years 1 & 2   
@@ -221,15 +221,13 @@ _Year 2: including thesis progress, particularly the proposal of a preliminary d
 
 |=======================
 
-_Nota Bene: Yearly presentation on thesis progress shall occur one month to 15 days before the payment mouth identified in Section 5.2 of the contract._
-
 *WP2 (M6-M42) Model validation* (mostly supported by *Ph.D. 2*). Leader: Marc Pantel
 
 The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
 
 Deliverables:
 
-[options="header,footer"]
+[options="header"]
 |=======================
 |Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
 |Yearly progress presentation (Oral + written material) for Years 1 & 2   
@@ -244,15 +242,13 @@ _Year 2: including thesis progress, particularly the proposal of a preliminary d
 
 |=======================
 
-_Nota Bene: Yearly presentation on thesis progress shall occur one month to 15 days before the payment mouth identified in Section 5.2 of the contract._
-
 *WP3 (M12-M48) Requirement formalization* (mostly supported by *Ph.D. 3*). Leader: Sophie Ebersold
 
 The precise method and list of tasks to be performed will be refined during and by Postdoc 1.
 
 Deliverables:
 
-[options="header,footer"]
+[options="header"]
 |=======================
 |Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
 |Yearly progress presentation (Oral + written material) for Years 1 & 2   
@@ -274,7 +270,7 @@ The method and the list of tasks to be performed by the three Ph.Ds. will be def
 
 Deliverables:
 
-[options="header,footer"]
+[options="header"]
 |=======================
 |Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
 |Semestrial progress presentation (Oral + written material)   
@@ -292,7 +288,7 @@ outcomes of the chair. In order for the dissemination to be effective, several m
 
 Deliverables:
 
-[cols="^,<,<,<",options="header,footer"]
+[cols="^,<,<,<",options="header"]
 |=======================
 |Deliverable |Delivery frequency   |Scope of application  |Acceptance criteria
 |(At least one) Scientific publication(s) |During or at the end of the THESIS    |THESIS     |Validation from the reviewing committee(s) of the publication(s)
