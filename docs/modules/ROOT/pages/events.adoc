@@ -12,6 +12,13 @@ include::ROOT:page$definitions.adoc[]
 |   2022-06-01  |  ERTS'22      | Toulouse, France  | https://www.erts2022.org/  
 |   2022-06-25  |  IncoseSymp   | Detroit, USA      | https://www.incose.org/symp2022/home/when-where   
 |   2022-11-22  |  MBSE2022     | Toulouse, France  | https://indico.esa.int/event/407/   
+|   2022-12-15  |  CSD&M'22     | Paris, France     | https://cesam.community/en/csdm-paris-2022/call-for-papers/
 |===========================================================
 
 == Past events
+
+[options="header"]
+|===========================================================
+| Date          | Event                 | Place             | URL
+|   2022-03-21  | Ecole IS de l'AFIS    | Alès, France      | http://www.ecole-is.afis.fr/
+|===========================================================
