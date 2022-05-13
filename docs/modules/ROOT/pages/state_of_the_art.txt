@@ -20,6 +20,8 @@
 - SysML (https://www.omgsysml.org/) 
 
 // *******************************************
-== Standards and norms
+== Standard, norms and useful sites
 // *******************************************
 - INCOSE: https://www.incose.org/
+- SysML diagram tutorial: https://sysml.org/tutorials/sysml-diagram-tutorial/
+- Agile MBSE: https://pivotpt.com/training/mbse-sysml/
