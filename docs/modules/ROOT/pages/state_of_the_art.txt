@@ -5,9 +5,12 @@
 // *******************************************
 == State of the art and papers to read
 // *******************************************
-1- Alexandr Naumchev, Bertrand Meyer, Manuel Mazzara, Florian Galinier, Jean-Michel Bruel, Sophie Ebersold: AutoReq: Expressing and verifying requirements for control systems. J. Comput. Lang. 51: 131-142 (2019)
-2- Charles S. Wasson: System Analysis, Design, and Development: Concepts, Principles, and Practices. Wiley Series in Systems Engineering and Management, ISBN: 978-0-471-72824-5, January 2005, 832 Pages
-3- Mike Kersten: Project to Product: How to Survive and Thrive in the Age of Digital Disruption with the Flow Framework. IT Revolution Press, November 2018, 272 pages.
+1- Alexandr Naumchev, Bertrand Meyer, Manuel Mazzara, Florian Galinier, Jean-Michel Bruel, Sophie Ebersold: AutoReq: Expressing and verifying requirements for control systems. J. Comput. Lang. 51, 2019, pp 131-142
+2- Charles S. Wasson: System Analysis, Design, and Development: Concepts, Principles, and Practices. Wiley Series in Systems Engineering and Management, ISBN: 978-0-471-72824-5, January 2005, 832 pages
+3- Mike Kersten: Project to Product: How to Survive and Thrive in the Age of Digital Disruption with the Flow Framework. IT Revolution Press, November 2018, 272 pages
+4- Benoit Combemale, Jörg Kienzle, Gunter Mussbacher, Hyacinth Ali, Daniel Amyot, Mojtaba Bagherzadeh, Edouard Batot, Nelly Bencomo, Benjamin Benni, Jean-Michel Bruel, Jordi Cabot, Betty Cheng, Philippe Collet, 
+	Gregor Engels, Robert Heinrich, Jean-Marc Jézéquel, Anne Koziolek, Sébastien Mosser, Ralf Reussner, Houari Sahraoui, Rijul Saini, June Sallou, Serge Stinckwich, Eugene Syriani, Manuel Wimmer: A Hitchhiker's
+ Guide to Model-Driven Engineering for Data-Centric Systems, IEEE Software,, vol. 38, July-Aug. 2021, pp. 71-84 
 
 // *******************************************
 == Tools
