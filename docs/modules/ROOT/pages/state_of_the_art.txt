@@ -11,6 +11,7 @@
 4- Benoit Combemale, Jörg Kienzle, Gunter Mussbacher, Hyacinth Ali, Daniel Amyot, Mojtaba Bagherzadeh, Edouard Batot, Nelly Bencomo, Benjamin Benni, Jean-Michel Bruel, Jordi Cabot, Betty Cheng, Philippe Collet, 
 	Gregor Engels, Robert Heinrich, Jean-Marc Jézéquel, Anne Koziolek, Sébastien Mosser, Ralf Reussner, Houari Sahraoui, Rijul Saini, June Sallou, Serge Stinckwich, Eugene Syriani, Manuel Wimmer: A Hitchhiker's
  Guide to Model-Driven Engineering for Data-Centric Systems, IEEE Software,, vol. 38, July-Aug. 2021, pp. 71-84 
+5- Alistair Mavin, Philip Wilkinson, Adrian Harwood, Mark Novak: Easy approach to requirements syntax (EARS), 17th IEEE International Conference on Requirements Engineering, RE'09, pp 317-322
 
 // *******************************************
 == Tools
