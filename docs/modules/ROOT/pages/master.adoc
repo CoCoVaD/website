@@ -376,19 +376,24 @@ This list is not exhaustive and may evolve according to the research needs.
 *Airbus* members
 
 |=======================
-|Dr. Sergio FEO-ARENIS  |Technical responsible of the chair on Airbus side
-                         Research Scientist in the Virtual product Engineering Domain
+// |Dr. Sergio FEO-ARENIS  |Technical responsible of the chair on Airbus side
+
+//                          Research Scientist in the Virtual product Engineering Domain
+
 |M. Thierry CHEVALIER   |DDMS, Head of Modeling & Simulation research
 
-                         Owener of the R&T ``Digital Design Manufacturing & Services Technology" roadmap (1DDM)
-      
-                         Member of the SM@RT team, Alignment expert
+                         Owner of the R&T ``Digital Design Manufacturing & Services Technology" roadmap (1DDM)
+
 |M. Benoit VIGNEAU      |DDMS, Head Of MBSE activities
-      
+
                          Owner of the R&t ``Model-based Enginerring" roadmap (2MSE)
-|M. Carsten STROBEL     |R&T senior Research Project Leader
-      
+
+|M. Carsten STROBEL     |R&T senior Research Project Leader at {crt}   
+
                          Co-Owner of the R&T ``Model-based Engineering" roadmap (2MSE)    
+
+|M. Philipp HELLE     |Virtual Product Engineering at {crt}       
+
 |M. Alain KERBRAT      |E2E Systems MBSE specialist
      
 |=======================

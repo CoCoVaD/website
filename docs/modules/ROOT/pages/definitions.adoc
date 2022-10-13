@@ -115,7 +115,7 @@
 :univ-tlse2: http://www.univ-tlse2.fr[Université Toulouse II - Jean Jaurès]
 :ut2j: {univ-tlse2}
 :airbus: https://www.airbus.com/[Airbus]
-
+:crt: https://www.airbus.com/en/innovation[Central Research and Technology]
 // data divers
 :here: icon:map-marker[role=red] You are here!
 
