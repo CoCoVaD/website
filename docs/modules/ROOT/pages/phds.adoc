@@ -4,6 +4,12 @@ v1.0, {localdate}
 
 include::ROOT:page$definitions.adoc[]
 
-CAUTION: Page under construction!! 
+CAUTION: Page under construction! Stay tuned here or contact {holder}.
 
-The {cocovad} will hire three PhDs in 2022. Stay tuned here or contact {holder}.
+The {cocovad} will hire three Ph.Ds in 2022-2023. 
+The goal of these Ph.Ds, appart from addressing the key issues of the project, is to prepare high-level junior engineers to join the excellence tracks provided at Airbus for high potential and experts.
+
+== M.Sc. hiring
+
+As part of the recruitement of talented Ph.D. candidates, we offer a first M.Sc. Internship for final Engineering Schools or Masters students willing to spend their final year Internship in a promising research environment.
+Details upcoming...
