@@ -13,3 +13,24 @@ The goal of these Ph.Ds, appart from addressing the key issues of the project, i
 
 As part of the recruitement of talented Ph.D. candidates, we offer a first M.Sc. Internship for final Engineering Schools or Masters students willing to spend their final year Internship in a promising research environment.
 Details upcoming...
+
+**References** 
+
+1- Charles S. Wasson, “System engineering analysis, design, and development: Concepts, principles, and practices”. Wiley Second Edition, December 2015, ISBN: 978-1-118-44226-5, 880 pages.
+2- B. W. Boehm, "An Experiment in Small-Scale Application Software Engineering", in IEEE Transactions on Software Engineering, vol. SE-7, no. 5, September 1981, pp. 482-493.
+3-Alawneh, Luay & Debbabi, Mourad & Hassaïne, Fawzi & Jarraya, Yosr & Shahi, Payam & Soeanu, Andrei. “Towards a Unified Paradigm for Verification and Validation of Systems Engineering Design Models”, 2006, pp. 282-287.
+4- OCL GitHub : https://modeling-languages.com/ocl-github-action-validate-models/
+5- Baduel, Ronan & Chami, Mohammad & Bruel, Jean-Michel & Ober, Iulian, “SysML Models Verification and Validation in an Industrial Context: Challenges and Experimentation”, 10.1007/978-3-319-92997-2_9, 2018.
+6- Myron Hecht, Jaron Chen, “Verification and Validation of SysML Models”, INCOSE International Symposium, Volume31, Issue1, pages 599-613, 2021.
+7- SysML : https://sysml.org/
+8- OCL : http://www.omg.org/spec/OCL/2.4
+9- Atif Mashkoor, Michael Leuschel, Alexander Egyed, “Validation Obligations: A Novel Approach to Check Compliance between Requirements and their Formal Specification”. ICSE (NIER) 2021: 1-
+10- Abrial, Jean-Raymond, “Modeling in Event-B: System and Software Engineering”, Cambridge University Press, 2010.
+11- M. Hecht, J. Chen and G. Pugliese-Rosillo, "Verification and Validation of SysML Models", 2021 IEEE Aerospace Conference (50100), 2021, pp. 1-6.
+12- Ning Ge, Marc Pantel, “Time Properties Verification Framework for UML-MARTE Safety Critical Real-Time Systems”, ECMFA 2012: 352-367, 2012.
+13- Extended Enterprise definition: https://www.sebokwiki.org/wiki/Extended_Enterprise_(glossary)
+14- MBSE and Extended Enterprise: http://www.2018.csdm.fr/wp-content/uploads/2018/12/Marco-Ferrogalini-Extended-enterprise-and-MBSE-CSDM-2018.pdf
+15- CI/CD video: https://www.youtube.com/watch?v=zVpSnlTyrPc
+16- CI/CD definition: https://www.redhat.com/fr/topics/devops/what-is-ci-cd
+17- System integration: https://www.sebokwiki.org/wiki/System_Integration
+18- DevOps definition: https://www.redhat.com/fr/topics/devops
