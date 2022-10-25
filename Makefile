@@ -17,6 +17,7 @@ clean:
 
 init:
 	npm i asciidoctor asciidoctor-kroki
+	npm i -D -E @antora/site-generator@3.1
 	
 check:
 	cucumber

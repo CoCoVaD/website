@@ -11,10 +11,46 @@ The goal of these Ph.Ds, appart from addressing the key issues of the project, i
 
 == M.Sc. hiring
 
-As part of the recruitement of talented Ph.D. candidates, we offer a first M.Sc. Internship for final Engineering Schools or Masters students willing to spend their final year Internship in a promising research environment.
-Details upcoming...
+As part of the recruitment of talented Ph.D. candidates, we offer a first M.Sc. Internship for final Engineering Schools or Masters students willing to spend their final year Internship in a promising research environment.
 
-*References* 
+Title:: 
+Continuous Models Validation in a DevOps Approach
+
+=== Contexte
+
+Nowadays, systems are becoming increasingly complex. This is due to several factors:the integration of complex components into systems, the consideration of systems of systems, the heterogeneity both in the systems (a system is the composition of several software, hardware and interface parts with the external world) and in their environment (for example, an avionics system will operate according to the laws of aerodynamics, the rules of air navigation and safety and security and many other constraints), the integration of technologies derived from Artificial Intelligence (AI), the involvement of several stakeholders in the development of systems, etc. In an extended team development framework, such as that of the Extended Enterprise [13], a major work requiring the involvement of several stakeholders introduces an additional complexity of communication and collaboration between the different stakeholders. This increasing complexity requires a shift towards digitization of development processes. The goal is to better manage the different tasks as well as the documents and models handled and/or produced throughout the development process. Digitization consists in moving from the "paper" and semi-formal version of documents to a formalization and automation of these different elements (documents and manual steps). Among the objectives of this digitization are the acceleration of the development time and the assurance of the quality of the system under development. Continuous Integration and Continuous Deployment (CI/CD) [15, 16] are key activities in a development with DevOps practices[18]. Model-Based Systems Engineering (MBSE) aims to shift traditional document-centric development work to model-centric development. From a MBSE development perspective, the deployment of the DevOps and CI/CD approaches helps to better manage the complexity of systems.
+
+The correctness of a system is ensured through verification and validation (V&V) activities. Wasson [1] defines: (i) the verification as “the continuous process of evaluating the products of the system acquirer, system developer, service provider, or user throughout the system/product life cycle to assess compliance with predefined contract, mission, or task requirements”, (ii) the validation as “the continuous process of evaluating and analyzing the extent to which multidisciplinary Systems Engineering (SE) activities and work products -decision artifacts such as specifications, designs, or devices-satisfy the user based on the user's predefined business needs, constraints, and performance expectations. In other words, verification answers the question "are we developing the system right?" (i.e., in compliance with the appropriate rules or quality requirements) and validation aims to answer the question "are we developing the right system?" (the one that the customer really needs and that complies with his requirements). Correctness in relation to the specifications is one of the primary criteria defining the quality of the system. Moreover, the earlier this criterion is taken into account in the development process, the less expensive it will be to deal with errors. A late correction of errors can cost up to 200 times more than a correction made earlier in the requirements analysis phase [2]. V&V is a rigorous process that must be done upstream and as  development of the system. It starts from the elicitation and analysis of the requirements until the final system is obtained. The importance of these activities/processes becomes apparent when it comes to the development of critical and complex systems such as those in the transportation field (airplanes, autonomous cars, etc.) or the medical field (pacemakers, insulin pumps, hemodialysis). The objective of development based on a DevOps approach is to produce and integrate models in a continuous manner. The cost of verifying some properties inside models or between models during this continuous integration in DevOps is far from insignificant. Such a continuous evaluation is very costly, especially when moving from the scale of software to complex systems containing heterogeneous parts. This V&V cost does not allow to replay all activities at any time, unlike testing, typing, etc. The question is to identify the technological means of implementation for scaling: should an OCL interpreter be used? Or would it be more appropriate to implement it in a more efficient language? And what about automatic translation to a more suitable language or toolchain? etc.
+
+The International Council On Systems Engineering (INCOSE) defines model-based systems engineering (MBSE) as "the formalized application of modeling to support system requirements system requirements, design, analysis, verification and validation activities beginning in the validation activities beginning in the design phase and continuing throughout the development and development and later phases of the life cycle." (INCOSE SE Vision 2020). This work is accomplished by following a methodology, adopting one or more tools and applying one or more This work is accomplished by following a methodology, adopting one or more tools and applying one or more modeling languages such as {sysml} [7].
+
+=== Goal of the master 
+
+The quality assessment and, in particular, the correctness of {sysml} models remains a challenge for the existing state-of-the-art formal verification techniques. Some works such as [3, 4, 5, 11, 12] have addressed the problem of verification and validation of (UML) {sysml} models using different verification and validation techniques and rules. These techniques focus on: (i) model-checking, (ii) static analysis, (iii) model inspection via OCL constraints [8], and (iv) the use of a generic catalog describing model acceptance criteria (e.g., [6, 11]). Baduel et al. [5] performed work on the automatic verification using rules and wrote rules for validation that remain textual and not automated. Mashkoor et al. [9] were inspired by the concept of Proof Obligation (PO) used for the verification activity and proposed a concept of Validation Obligation (VO) to validate formal models in Event-B language[10]. VOs are predicates that define properties that the formal model must satisfy with respect to the client's requirements. Referring to the ideas described in [5] and [9], the objective of this master is to propose a methodology allowing the definition of validation rules that can be used in a continuous validation approach (DevOps). These rules translate requirements and meta-requirements and will initially concern a particular problem or a particular class of problems (for example an aircraft trajectory control system for air traffic control). They can be adapted and reused for similar problems (for other types of traffic control for example). The defined approach will be guided by a case study of a complex system provided by Airbus. The first task will be to set and classify properties for the validation of {sysml} models: (i) internal properties of the models, (ii) integration and communication properties with/between existing models, (iii) properties of the models' environment from the meta-requirements, etc. The choice of the methodology as well as the tools and languages used will be specified according to the background and skills of the candidate.  
+
+=== Framework and perspectives
+
+This proposal is a research topic that is included in the context of an industrial Airbus chair called {cocovad}, a world leader in aeronautics. At the end of this master's degree, the selected candidate will have the opportunity to carry on the subject in the context of a Ph.D. The objective for Airbus is to hire the doctor at the end of the thesis in order to integrate him or her into an MBSE expert trajectory.
+
+=== Practical details
+
+For more details, please contact {imen} or visit {cocovad}.
+
+Start date:: as soon as possible
+Duration:: 6 months
+Location:: {irit} – IUT de Blagnac / {Airbus} (Toulouse, Hambourg)
+Management:: Marc Pantel (N7), {imen} (IRIT), {jmb} (IRIT)
+In-person/Remote:: 
+on-site work with the possibility of remote work. 
+Possibility of carrying out all or part of the Master's program abroad (Airbus sites)
+Expected skills:: 
+
+- Software engineering notions  (continuous integration, formal methods)
+- Introduction to systems engineering
+- Experience in MBSE (UML, {sysml}, Arcadia, ...) is welcome 
+- Good level of English (for international meetings)
+
+=== References 
 
 1. Charles S. Wasson, “System engineering analysis, design, and development: Concepts, principles, and practices”. Wiley Second Edition, December 2015, ISBN: 978-1-118-44226-5, 880 pages.
 2. B. W. Boehm, "An Experiment in Small-Scale Application Software Engineering", in IEEE Transactions on Software Engineering, vol. SE-7, no. 5, September 1981, pp. 482-493.
