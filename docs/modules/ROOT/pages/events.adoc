@@ -9,7 +9,8 @@ include::ROOT:page$definitions.adoc[]
 [options="header"]
 |===========================================================
 | Date          | Event         | Place             | URL
-|   2023-01-19  |  AFIS         | Paris, France     | https://www.afis.fr/calendrier/journee-afis-afsim-ingenierie-systeme-et-simulation-de-defense/
+|   2023-01-19  |  AFIS-AFSIM'23| Paris, France     | https://www.afis.fr/calendrier/journee-afis-afsim-ingenierie-systeme-et-simulation-de-defense/
+|   2023-05-22  |  NAM'23       | Allen, Texas      | https://events.3ds.com/mbse-cyber-experience-symposium-nam-2023
 |   2023-07-01  |  IncoseSymp   | Detroit, USA      | https://www.incose.org/symp2023
 |===========================================================
 
