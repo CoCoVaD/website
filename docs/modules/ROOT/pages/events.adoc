@@ -9,7 +9,8 @@ include::ROOT:page$definitions.adoc[]
 [options="header"]
 |===========================================================
 | Date          | Event         | Place             | URL
-|   2022-07-01  |  IncoseSymp   | Detroit, USA      | https://www.incose.org/symp2023
+|   2023-01-19  |  AFIS         | Paris, France     | https://www.afis.fr/calendrier/journee-afis-afsim-ingenierie-systeme-et-simulation-de-defense/
+|   2023-07-01  |  IncoseSymp   | Detroit, USA      | https://www.incose.org/symp2023
 |===========================================================
 
 == Past events
