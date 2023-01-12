@@ -4,7 +4,12 @@ v1.0, {localdate}
 
 include::ROOT:page$definitions.adoc[]
 
-CAUTION: Page under construction! Stay tuned here or contact {holder}.
+[CAUTION]
+====
+image:https://img.shields.io/badge/Position-Open-green[] 
+
+Page under construction! Stay tuned here or contact {holder}.
+====
 
 The {cocovad} will hire three Ph.Ds in 2022-2023. 
 The goal of these Ph.Ds, appart from addressing the key issues of the project, is to prepare high-level junior engineers to join the excellence tracks provided at Airbus for high potential and experts.

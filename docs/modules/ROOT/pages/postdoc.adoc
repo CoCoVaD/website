@@ -14,7 +14,12 @@ ifndef::backend-pdf[]
 
 include::ROOT:page$definitions.adoc[]
 
-// CAUTION: Page under construction!! 
+[CAUTION]
+====
+image:https://img.shields.io/badge/Position-Closed-red[] 
+
+The postdoc position has been filled 
+====
 
 endif::[]
 ifdef::backend-pdf[]
