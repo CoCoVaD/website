@@ -6,7 +6,10 @@
 // :plantuml-server-url: http://www.plantuml.com/plantuml
 
 // Definitions
-:jmb: mailto:bruel@irit.fr[J.-M. Bruel]
+:jmb: mailto:bruel@irit.fr[Jean-Michel Bruel]
+:mp: mailto:Marc.Pantel@toulouse-inp.fr[Marc Pantel]
+:se: mailto:sophie.ebersold@irit.fr[Sophie Ebersold]
+:nh: mailto:nathalie.hernandez@irit.fr[Nathalie Hernandez]
 :imen: mailto:imen.sayar@irit.fr[Imen Sayar]
 :holder: {jmb}
 :myinitials: JMB

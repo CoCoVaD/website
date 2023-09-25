@@ -1,6 +1,6 @@
 = Ph.Ds Hiring 
 Jean-Michel Bruel <bruel@irit.fr>
-v1.0, {localdate}
+v1.23, {localdate}
 
 include::ROOT:page$definitions.adoc[]
 
@@ -11,17 +11,19 @@ image:https://img.shields.io/badge/Position-Open-green[]
 Page under construction! Stay tuned here or contact {holder}.
 ====
 
-The {cocovad} will hire three Ph.Ds in 2022-2023. 
-The goal of these Ph.Ds, appart from addressing the key issues of the project, is to prepare high-level junior engineers to join the excellence tracks provided at Airbus for high potential and experts.
+The {cocovad} is hiring 2 Ph.Ds.
 
-== M.Sc. hiring
+The goal of these Ph.Ds, apart from addressing the key issues of the project, is to prepare high-level junior engineers to join the excellence tracks provided at Airbus for high potential and experts.
 
-As part of the recruitment of talented Ph.D. candidates, we offer a first M.Sc. Internship for final Engineering Schools or Masters students willing to spend their final year Internship in a promising research environment.
+== Common context
 
-Title:: 
-Continuous Models Validation in a DevOps Approach
+== Viewpoints and Early Requirements V&V in a SysML v2 context
 
-=== Contexte
+This Ph.D. will be supervised by {se} and {jmb}.
+
+== Continuous Models Validation in a DevOps Approach
+
+This Ph.D. will be supervised by {mp}, {se} and {jmb}.
 
 Nowadays, systems are becoming increasingly complex. This is due to several factors:the integration of complex components into systems, the consideration of systems of systems, the heterogeneity both in the systems (a system is the composition of several software, hardware and interface parts with the external world) and in their environment (for example, an avionics system will operate according to the laws of aerodynamics, the rules of air navigation and safety and security and many other constraints), the integration of technologies derived from Artificial Intelligence (AI), the involvement of several stakeholders in the development of systems, etc. In an extended team development framework, such as that of the Extended Enterprise [13], a major work requiring the involvement of several stakeholders introduces an additional complexity of communication and collaboration between the different stakeholders. This increasing complexity requires a shift towards digitization of development processes. The goal is to better manage the different tasks as well as the documents and models handled and/or produced throughout the development process. Digitization consists in moving from the "paper" and semi-formal version of documents to a formalization and automation of these different elements (documents and manual steps). Among the objectives of this digitization are the acceleration of the development time and the assurance of the quality of the system under development. Continuous Integration and Continuous Deployment (CI/CD) [15, 16] are key activities in a development with DevOps practices[18]. Model-Based Systems Engineering (MBSE) aims to shift traditional document-centric development work to model-centric development. From a MBSE development perspective, the deployment of the DevOps and CI/CD approaches helps to better manage the complexity of systems.
 
